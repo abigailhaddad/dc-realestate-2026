@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# raw pipeline output — large, regenerable via pipeline/pull*.py
+# small aggregates in data/ + public/ are committed
+data/sales.json
+data/citywide_parcels.json
+data/citywide_parcel_shapes.json
+data/citywide_clusters.json
+
+# OSM Nominatim cache (regenerable on next pull)
+.osm_cache.json
+pipeline/.osm_cache.json
+.playwright-mcp/
+__pycache__/
+*.pyc
