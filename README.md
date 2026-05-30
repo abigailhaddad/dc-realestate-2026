@@ -1,11 +1,18 @@
 # DC Real Estate 2026
 
-A polished, end-to-end example of pulling DC's open property data and turning
-it into an interactive dashboard + briefing deck.
+An end-to-end example of pulling DC's open property data from its public ArcGIS
+REST APIs and turning it into an interactive dashboard + briefing decks.
 
-Built as a reference for anyone — including Claude — who wants to **start a new
-project on top of DC's public APIs** without spending two days figuring out
-which layers to hit.
+The core of this repo is the **data pipeline**: dependency-free Python scripts
+that hit DC's property APIs — sales, parcels, ownership, assessments — and
+handle the awkward parts (pagination, POST fallback for big polygon queries,
+the tax-lot vs. ITSPE distinction) so you get clean JSON out. The dashboard and
+decks are just one thing you can do with that data.
+
+If you came here for the APIs, start with
+[`docs/data_sources.md`](./docs/data_sources.md) (every layer + the fields it
+exposes) and [`pipeline/README.md`](./pipeline/README.md) (how the scripts
+work and how to extend them).
 
 ## What you get
 
@@ -93,38 +100,18 @@ dc-realestate-2026/
 └── package.json
 ```
 
-## How to use this as a starter for a new project
-
-You're handing this to Claude and saying "make me something like this for X." A
-few entry points:
-
-1. **Change the question, keep the pipeline.** The pulls in `pipeline/` are
-   general — they fetch every parcel and every sale. Edit `analyze.py` (or add
-   a new analyze script) to compute whatever aggregate you want.
-
-2. **Add a new visualization.** Charts are isolated React components in
-   `components/`. Copy the pattern of `UseMixChart.tsx` (Recharts) or
-   `SalesMapImpl.tsx` (Leaflet). Map components need a thin dynamic-import
-   wrapper (e.g. `SalesMap.tsx` → `SalesMapImpl.tsx`) because Leaflet touches
-   `window` at import time.
-
-3. **Add a new slide.** Open `app/slides/page.tsx`, add a `<Slide>` to the
-   `slides` array. Each slide is just a React node.
-
-4. **Pull a different layer.** Browse `docs/data_sources.md` for what's available.
-   The full DC catalog is at `https://opendata.dc.gov/api/feed/dcat-us/1.1.json`
-   — search it for the topic you want. The HTTP helpers in `pipeline/pull.py`
-   (`http_get`, `arcgis_query`, `in_chunks`) handle pagination + URL-too-long
-   automatically.
-
-See [`CLAUDE.md`](./CLAUDE.md) for a more detailed brief aimed at Claude.
-
 ## Data sources
 
 All data is from the DC Office of Tax & Revenue + adjacent agencies, served
 via Esri ArcGIS REST on `maps2.dcgis.dc.gov`. No API keys, no rate limits, no
 sign-up. See [`docs/data_sources.md`](./docs/data_sources.md) for the full layer
 catalog and join patterns.
+
+To find layers beyond the ones used here, browse the full DC open-data catalog
+at `https://opendata.dc.gov/api/feed/dcat-us/1.1.json`. To pull a new one, point
+the HTTP helpers in [`pipeline/pull.py`](./pipeline/pull.py) (`http_get`,
+`arcgis_query`, `in_chunks`) at its endpoint — they handle pagination and the
+URL-too-long → POST fallback for you.
 
 The single external dependency — only as a fallback — is
 [OpenStreetMap Nominatim](https://nominatim.openstreetmap.org/) for naming
