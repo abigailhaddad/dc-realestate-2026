@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-11-21T18:50:20+00:00",
+ "generated_at": "2026-11-21T18:55:57+00:00",
  "as_of": {
   "DC": "2026-11-12",
-  "Arlington, VA": "2026-11-18",
+  "Arlington, VA": "2026-11-19",
   "Montgomery + Prince George's, MD": "2026-10-29",
   "Fairfax, VA": "2026-09-15"
  },
  "pulled_counts": {
   "DC": 17174,
-  "Arlington, VA": 5318,
+  "Arlington, VA": 5327,
   "Montgomery + Prince George's, MD": 67759,
   "Fairfax, VA": 25676
  },
- "total_flagged": 2059,
- "total_unexplained": 1081,
+ "total_flagged": 2045,
+ "total_unexplained": 1105,
  "flagged_by_jurisdiction": {
-  "DC": 1421,
+  "DC": 1407,
   "Arlington, VA": 76,
   "Montgomery, MD": 306,
   "Prince George's, MD": 238,
   "Fairfax, VA": 18
  },
  "unexplained_by_jurisdiction": {
-  "DC": 889,
+  "DC": 913,
   "Arlington, VA": 10,
   "Montgomery, MD": 73,
   "Prince George's, MD": 91,
@@ -32,13 +32,156 @@
   {
    "jurisdiction": "DC",
    "screen": "assessment + comps (house)",
-   "key": "DC|house|1507    0022|2025-10-23",
-   "date": "2025-10-23",
-   "price": 4180000.0,
-   "address": "4822 QUEBEC ST NW WASHINGTON DC 20016",
-   "flag_reason": "1.31x comps' $/sqft, 11 comparables",
+   "key": "DC|house|3207    0075|2025-01-09",
+   "date": "2025-01-09",
+   "price": 1200000.0,
+   "address": "615 KENNEDY ST NW WASHINGTON DC 20011",
+   "flag_reason": "1.88x comps' $/sqft, 14 comparables",
    "explained": false,
-   "reason": "keep: listed; sold 10% above asking"
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|0191    0080|2025-01-13",
+   "date": "2025-01-13",
+   "price": 2950000.0,
+   "address": "1519 SWANN ST NW WASHINGTON DC 20009",
+   "flag_reason": "1.88x comps' $/sqft, 16 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|0865    0095|2025-01-22",
+   "date": "2025-01-22",
+   "price": 3225000.0,
+   "address": "622 MASSACHUSETTS AVE NE WASHINGTON DC 20002-6006",
+   "flag_reason": "1.65x comps' $/sqft, 16 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1305    0052|2025-03-07",
+   "date": "2025-03-07",
+   "price": 2800000.0,
+   "address": "3623 R ST NW WASHINGTON DC 20007",
+   "flag_reason": "1.34x comps' $/sqft, 10 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|5543    0888|2025-05-21",
+   "date": "2025-05-21",
+   "price": 745000.0,
+   "address": "1316 31ST PL SE WASHINGTON DC 20020-3635",
+   "flag_reason": "1.53x comps' $/sqft, 13 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|2958    0022|2025-06-11",
+   "date": "2025-06-11",
+   "price": 1525000.0,
+   "address": "7703 12TH ST NW WASHINGTON DC 20012",
+   "flag_reason": "1.33x comps' $/sqft, 25 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1009    0822|2025-06-23",
+   "date": "2025-06-23",
+   "price": 2500000.0,
+   "address": "333 12TH ST NE WASHINGTON DC 20002-6319",
+   "flag_reason": "1.84x comps' $/sqft, 60 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1346    0005|2025-09-03",
+   "date": "2025-09-03",
+   "price": 5000000.0,
+   "address": "4414 W ST NW WASHINGTON DC 20007",
+   "flag_reason": "1.7x comps' $/sqft, 12 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1448    0019|2025-10-22",
+   "date": "2025-10-22",
+   "price": 2625000.0,
+   "address": "4900 PALISADE LN NW WASHINGTON DC 20016",
+   "flag_reason": "1.3x comps' $/sqft, 10 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|2042    0010|2025-12-22",
+   "date": "2025-12-22",
+   "price": 4500000.0,
+   "address": "3003 AUDUBON TER NW WASHINGTON DC 20008",
+   "flag_reason": "1.62x comps' $/sqft, 10 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|0190    0095|2026-01-15",
+   "date": "2026-01-15",
+   "price": 1950000.0,
+   "address": "1509 CAROLINE ST NW WASHINGTON DC 20009",
+   "flag_reason": "2.2x the neighborhood peer price/assessment ratio, $1,105,620 over assessment",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1397    1041|2026-01-22",
+   "date": "2026-01-22",
+   "price": 5999000.0,
+   "address": "4849 KEMBLE PL NW WASHINGTON DC 20007-1052",
+   "flag_reason": "2.1x the neighborhood peer price/assessment ratio, $3,450,690 over assessment",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|0279    0004|2026-04-15",
+   "date": "2026-04-15",
+   "price": 2925000.0,
+   "address": "1213 O ST NW WASHINGTON DC 20005",
+   "flag_reason": "1.49x comps' $/sqft, 16 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|0735    0078|2026-04-21",
+   "date": "2026-04-21",
+   "price": 2495000.0,
+   "address": "153 NORTH CAROLINA AVE SE WASHINGTON DC 20003-1846",
+   "flag_reason": "1.82x comps' $/sqft, 31 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
   },
   {
    "jurisdiction": "DC",
@@ -49,7 +192,29 @@
    "address": "151 NORTH CAROLINA AVE SE WASHINGTON DC 20003-1846",
    "flag_reason": "1.77x comps' $/sqft, 31 comparables",
    "explained": false,
-   "reason": "keep: no public listing found (possible off-market sale)"
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|2063    0077|2026-05-13",
+   "date": "2026-05-13",
+   "price": 2421000.0,
+   "address": "3410 RODMAN ST NW WASHINGTON DC 20008",
+   "flag_reason": "1.38x comps' $/sqft, 15 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1486    0082|2026-06-04",
+   "date": "2026-06-04",
+   "price": 2450000.0,
+   "address": "4910 BRANDYWINE ST NW WASHINGTON DC 20016",
+   "flag_reason": "1.4x comps' $/sqft, 17 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
   },
   {
    "jurisdiction": "DC",
@@ -60,18 +225,117 @@
    "address": "2435 WAGNER ST SE WASHINGTON DC 20020",
    "flag_reason": "1.47x comps' $/sqft, 24 comparables",
    "explained": false,
-   "reason": "keep: listed; sold 94% above asking"
+   "reason": "unchecked: no listing check recorded"
   },
   {
    "jurisdiction": "DC",
    "screen": "assessment + comps (house)",
-   "key": "DC|house|0870    0099|2026-06-24",
-   "date": "2026-06-24",
-   "price": 2900000.0,
-   "address": "610 INDEPENDENCE AVE SE WASHINGTON DC 20003",
-   "flag_reason": "1.72x comps' $/sqft, 22 comparables",
+   "key": "DC|house|1227    0091|2026-06-25",
+   "date": "2026-06-25",
+   "price": 2500000.0,
+   "address": "1324 35TH ST NW WASHINGTON DC 20007",
+   "flag_reason": "1.42x comps' $/sqft, 19 comparables",
    "explained": false,
-   "reason": "keep: delisted, then sold 46% above the last asking price"
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|0240    0134|2026-07-08",
+   "date": "2026-07-08",
+   "price": 2875000.0,
+   "address": "1308 CORCORAN ST NW WASHINGTON DC 20009",
+   "flag_reason": "2.36x comps' $/sqft, 49 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1019    0058|2026-07-09",
+   "date": "2026-07-09",
+   "price": 1875000.0,
+   "address": "1227 E ST SE WASHINGTON DC 20003-2221",
+   "flag_reason": "1.36x comps' $/sqft, 69 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|5727    0162|2026-07-27",
+   "date": "2026-07-27",
+   "price": 519000.0,
+   "address": "2719 HARTFORD ST SE WASHINGTON DC 20020-2728",
+   "flag_reason": "1.39x comps' $/sqft, 24 comparables",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|4256    0005|2026-08-05",
+   "date": "2026-08-05",
+   "price": 975000.0,
+   "address": "2203 CHANNING ST NE WASHINGTON DC 20018",
+   "flag_reason": "2.5x the neighborhood peer price/assessment ratio, $610,500 over assessment",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1584    0006|2026-08-14",
+   "date": "2026-08-14",
+   "price": 2750000.0,
+   "address": "4905 45TH ST NW WASHINGTON DC 20016",
+   "flag_reason": "2.0x the neighborhood peer price/assessment ratio, $1,554,750 over assessment",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1425    0015|2026-09-03",
+   "date": "2026-09-03",
+   "price": 11000000.0,
+   "address": "2930 CHAIN BRIDGE RD NW WASHINGTON DC 20016-3408",
+   "flag_reason": "3.8x the neighborhood peer price/assessment ratio, $8,524,050 over assessment",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1495    0049|2026-09-03",
+   "date": "2026-09-03",
+   "price": 3450000.0,
+   "address": "4631 49TH ST NW WASHINGTON DC 20016-4320",
+   "flag_reason": "2.6x the neighborhood peer price/assessment ratio, $2,303,660 over assessment",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|5730    0219|2026-09-30",
+   "date": "2026-09-30",
+   "price": 650000.0,
+   "address": "2553 ALABAMA AVE SE WASHINGTON DC 20020-3224",
+   "flag_reason": "2.2x the neighborhood peer price/assessment ratio, $359,380 over assessment",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "assessment + comps (house)",
+   "key": "DC|house|1486    0822|2026-10-30",
+   "date": "2026-10-30",
+   "price": 2725000.0,
+   "address": "4528 49TH ST NW WASHINGTON DC 20016-4366",
+   "flag_reason": "2.0x the neighborhood peer price/assessment ratio, $1,557,010 over assessment",
+   "explained": false,
+   "reason": "unchecked: no listing check recorded"
   },
   {
    "jurisdiction": "DC",
