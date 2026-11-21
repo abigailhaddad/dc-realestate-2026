@@ -1,0 +1,86 @@
+name: Daily price-anomaly screen
+
+# Runs the price-anomaly pipeline (pipeline/run_daily.py) once a day and
+# commits the refreshed summary + small aggregates if anything changed.
+#
+# Scope: this workflow runs ONLY the price-anomaly screen and its
+# ordinary-explanation checks (pull_flag_inputs/pull_history/pull_parcels,
+# flag_overpriced, screen_candidates, patterns, history_check, listing_checks,
+# counties/*). It never runs pipeline/officials.py, pipeline/officials_dc_tax.py,
+# or pipeline/check_flagged.py -- those look up ownership / the DC corporate
+# registry and are local-only, manual tools by design. See pipeline/run_daily.py
+# for the full chain and docs/daily_status.md for what it produces.
+#
+# No API keys or secrets are needed: every data source here is a public,
+# unauthenticated API. The commit at the end uses the default GITHUB_TOKEN.
+
+on:
+  schedule:
+    # 10:17 UTC = ~5-6am US Eastern (DC/Arlington/MD/Fairfax time), a few
+    # hours after each jurisdiction's overnight data refresh would plausibly
+    # have landed. Off the hour on purpose, to avoid GitHub Actions' top-of-
+    # the-hour scheduling congestion. No workflow existed to match before this
+    # one, so this time is a reasonable guess, not observed from a prior job.
+    - cron: "17 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-price-anomaly-screen
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the price-anomaly pipeline
+        # Stdlib-only Python (see pipeline/README.md) -- no `pip install` step.
+        # Pulls fresh data for DC, Arlington, Montgomery, Prince George's, and
+        # Fairfax every run (pipeline/.cache/ is gitignored and never
+        # restored between runs, so there is no stale-cache risk in CI).
+        run: python3 pipeline/run_daily.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add docs/daily_status.md data/daily_status.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify nothing else was staged
+        # Belt-and-suspenders: this workflow must touch only the two summary
+        # files above. If run_daily.py (or something it calls) ever writes
+        # anywhere else -- data/, public/, or a tracked file -- fail loudly
+        # instead of silently committing it.
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          extra=$(git diff --cached --name-only | grep -v -E '^(docs/daily_status\.md|data/daily_status\.json)$' || true)
+          if [ -n "$extra" ]; then
+            echo "::error::Unexpected staged files beyond the daily summary:"
+            echo "$extra"
+            exit 1
+          fi
+
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Daily price-anomaly screen: $(date -u +%Y-%m-%d)"
+          git push

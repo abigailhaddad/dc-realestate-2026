@@ -53,3 +53,6 @@ pipeline/.osm_cache.json
 .playwright-mcp/
 __pycache__/
 *.pyc
+
+# pipeline caches (regenerable)
+/pipeline/.cache/
