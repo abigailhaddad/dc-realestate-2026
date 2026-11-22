@@ -1,6 +1,6 @@
 # Daily price-anomaly screen
 
-Last run: 2026-11-21 18:55 UTC. Covers sales from 2025-01-01 through each jurisdiction's most recent data pull (below) in DC, Arlington (VA), Montgomery + Prince George's (MD), and Fairfax (VA). Full methodology: [`docs/overpriced_sales.md`](./overpriced_sales.md).
+Last run: 2026-11-22 17:56 UTC. Covers sales from 2025-01-01 through each jurisdiction's most recent data pull (below) in DC, Arlington (VA), Montgomery + Prince George's (MD), and Fairfax (VA). Full methodology: [`docs/overpriced_sales.md`](./overpriced_sales.md).
 
 **This pipeline flags transactions, never people.** No owner, buyer, or seller name is used anywhere in it. A flag is a reason to look, not a finding -- most flagged sales turn out to have an ordinary explanation.
 
@@ -9,17 +9,17 @@ Last run: 2026-11-21 18:55 UTC. Covers sales from 2025-01-01 through each jurisd
 | Jurisdiction | Latest sale in the pull | 2025+ sales on file | New since last run |
 |---|---|---|---|
 | DC | 2026-11-12 | 17,174 | +0 |
-| Arlington, VA | 2026-11-19 | 5,327 | +9 |
+| Arlington, VA | 2026-11-19 | 5,327 | +0 |
 | Montgomery + Prince George's, MD | 2026-10-29 | 67,759 | +0 |
 | Fairfax, VA | 2026-09-15 | 25,676 | +0 |
 
-**115,936 sales on file since 2025-01-01 across all four areas (+9 new since the last run).**
+**115,936 sales on file since 2025-01-01 across all four areas (+0 new since the last run).**
 
 ## Flagged as price outliers
 
 **2,045 sale/screen combinations flagged** across every screen this run (a single sale can be flagged by more than one screen). **940 have an automated ordinary explanation** (new construction, a documented construction/renovation permit, consistent with the property's own sale history, a farm or large-lot assessment, or a comparable public listing). **1,105 remain unexplained by anything this pipeline checks automatically.**
 
-Of those 1,105, **26 are new since the last run** (not already unexplained yesterday).
+Of those 1,105, **0 are new since the last run** (not already unexplained yesterday).
 
 | Jurisdiction | Flagged (sale/screen combos) | Unexplained |
 |---|---|---|
@@ -41,34 +41,7 @@ Of those 1,105, **26 are new since the last run** (not already unexplained yeste
 
 Sales that are unexplained today and were NOT already unexplained on the previous run (i.e. either new sales, or newly flagged by a screen). This is the section worth reading daily; everything below it is the full accumulated backlog.
 
-| Jurisdiction | Screen | Date | Price | Address | Why flagged |
-|---|---|---|---|---|---|
-| DC | assessment + comps (house) | 2026-09-03 | $11,000,000 | 2930 CHAIN BRIDGE RD NW WASHINGTON DC 20016-3408 | 3.8x the neighborhood peer price/assessment ratio, $8,524,050 over assessment |
-| DC | assessment + comps (house) | 2026-01-22 | $5,999,000 | 4849 KEMBLE PL NW WASHINGTON DC 20007-1052 | 2.1x the neighborhood peer price/assessment ratio, $3,450,690 over assessment |
-| DC | assessment + comps (house) | 2025-09-03 | $5,000,000 | 4414 W ST NW WASHINGTON DC 20007 | 1.7x comps' $/sqft, 12 comparables |
-| DC | assessment + comps (house) | 2025-12-22 | $4,500,000 | 3003 AUDUBON TER NW WASHINGTON DC 20008 | 1.62x comps' $/sqft, 10 comparables |
-| DC | assessment + comps (house) | 2026-09-03 | $3,450,000 | 4631 49TH ST NW WASHINGTON DC 20016-4320 | 2.6x the neighborhood peer price/assessment ratio, $2,303,660 over assessment |
-| DC | assessment + comps (house) | 2025-01-22 | $3,225,000 | 622 MASSACHUSETTS AVE NE WASHINGTON DC 20002-6006 | 1.65x comps' $/sqft, 16 comparables |
-| DC | assessment + comps (house) | 2025-01-13 | $2,950,000 | 1519 SWANN ST NW WASHINGTON DC 20009 | 1.88x comps' $/sqft, 16 comparables |
-| DC | assessment + comps (house) | 2026-04-15 | $2,925,000 | 1213 O ST NW WASHINGTON DC 20005 | 1.49x comps' $/sqft, 16 comparables |
-| DC | assessment + comps (house) | 2026-07-08 | $2,875,000 | 1308 CORCORAN ST NW WASHINGTON DC 20009 | 2.36x comps' $/sqft, 49 comparables |
-| DC | assessment + comps (house) | 2025-03-07 | $2,800,000 | 3623 R ST NW WASHINGTON DC 20007 | 1.34x comps' $/sqft, 10 comparables |
-| DC | assessment + comps (house) | 2026-08-14 | $2,750,000 | 4905 45TH ST NW WASHINGTON DC 20016 | 2.0x the neighborhood peer price/assessment ratio, $1,554,750 over assessment |
-| DC | assessment + comps (house) | 2026-10-30 | $2,725,000 | 4528 49TH ST NW WASHINGTON DC 20016-4366 | 2.0x the neighborhood peer price/assessment ratio, $1,557,010 over assessment |
-| DC | assessment + comps (house) | 2025-10-22 | $2,625,000 | 4900 PALISADE LN NW WASHINGTON DC 20016 | 1.3x comps' $/sqft, 10 comparables |
-| DC | assessment + comps (house) | 2025-06-23 | $2,500,000 | 333 12TH ST NE WASHINGTON DC 20002-6319 | 1.84x comps' $/sqft, 60 comparables |
-| DC | assessment + comps (house) | 2026-06-25 | $2,500,000 | 1324 35TH ST NW WASHINGTON DC 20007 | 1.42x comps' $/sqft, 19 comparables |
-| DC | assessment + comps (house) | 2026-04-21 | $2,495,000 | 153 NORTH CAROLINA AVE SE WASHINGTON DC 20003-1846 | 1.82x comps' $/sqft, 31 comparables |
-| DC | assessment + comps (house) | 2026-06-04 | $2,450,000 | 4910 BRANDYWINE ST NW WASHINGTON DC 20016 | 1.4x comps' $/sqft, 17 comparables |
-| DC | assessment + comps (house) | 2026-05-13 | $2,421,000 | 3410 RODMAN ST NW WASHINGTON DC 20008 | 1.38x comps' $/sqft, 15 comparables |
-| DC | assessment + comps (house) | 2026-01-15 | $1,950,000 | 1509 CAROLINE ST NW WASHINGTON DC 20009 | 2.2x the neighborhood peer price/assessment ratio, $1,105,620 over assessment |
-| DC | assessment + comps (house) | 2026-07-09 | $1,875,000 | 1227 E ST SE WASHINGTON DC 20003-2221 | 1.36x comps' $/sqft, 69 comparables |
-| DC | assessment + comps (house) | 2025-06-11 | $1,525,000 | 7703 12TH ST NW WASHINGTON DC 20012 | 1.33x comps' $/sqft, 25 comparables |
-| DC | assessment + comps (house) | 2025-01-09 | $1,200,000 | 615 KENNEDY ST NW WASHINGTON DC 20011 | 1.88x comps' $/sqft, 14 comparables |
-| DC | assessment + comps (house) | 2026-08-05 | $975,000 | 2203 CHANNING ST NE WASHINGTON DC 20018 | 2.5x the neighborhood peer price/assessment ratio, $610,500 over assessment |
-| DC | assessment + comps (house) | 2025-05-21 | $745,000 | 1316 31ST PL SE WASHINGTON DC 20020-3635 | 1.53x comps' $/sqft, 13 comparables |
-| DC | assessment + comps (house) | 2026-09-30 | $650,000 | 2553 ALABAMA AVE SE WASHINGTON DC 20020-3224 | 2.2x the neighborhood peer price/assessment ratio, $359,380 over assessment |
-| DC | assessment + comps (house) | 2026-07-27 | $519,000 | 2719 HARTFORD ST SE WASHINGTON DC 20020-2728 | 1.39x comps' $/sqft, 24 comparables |
+None.
 
 ## All unexplained candidates (largest first)
 
