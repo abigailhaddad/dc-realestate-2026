@@ -1,6 +1,6 @@
 # Daily price-anomaly screen
 
-Last run: 2026-11-22 17:56 UTC. Covers sales from 2025-01-01 through each jurisdiction's most recent data pull (below) in DC, Arlington (VA), Montgomery + Prince George's (MD), and Fairfax (VA). Full methodology: [`docs/overpriced_sales.md`](./overpriced_sales.md).
+Last run: 2026-11-23 22:14 UTC. Covers sales from 2025-01-01 through each jurisdiction's most recent data pull (below) in DC, Arlington (VA), Montgomery + Prince George's (MD), and Fairfax (VA). Full methodology: [`docs/overpriced_sales.md`](./overpriced_sales.md).
 
 **This pipeline flags transactions, never people.** No owner, buyer, or seller name is used anywhere in it. A flag is a reason to look, not a finding -- most flagged sales turn out to have an ordinary explanation.
 
@@ -8,22 +8,22 @@ Last run: 2026-11-22 17:56 UTC. Covers sales from 2025-01-01 through each jurisd
 
 | Jurisdiction | Latest sale in the pull | 2025+ sales on file | New since last run |
 |---|---|---|---|
-| DC | 2026-11-12 | 17,174 | +0 |
+| DC | 2026-11-12 | 17,214 | +40 |
 | Arlington, VA | 2026-11-19 | 5,327 | +0 |
 | Montgomery + Prince George's, MD | 2026-10-29 | 67,759 | +0 |
 | Fairfax, VA | 2026-09-15 | 25,676 | +0 |
 
-**115,936 sales on file since 2025-01-01 across all four areas (+0 new since the last run).**
+**115,976 sales on file since 2025-01-01 across all four areas (+40 new since the last run).**
 
 ## Flagged as price outliers
 
-**2,045 sale/screen combinations flagged** across every screen this run (a single sale can be flagged by more than one screen). **940 have an automated ordinary explanation** (new construction, a documented construction/renovation permit, consistent with the property's own sale history, a farm or large-lot assessment, or a comparable public listing). **1,105 remain unexplained by anything this pipeline checks automatically.**
+**2,047 sale/screen combinations flagged** across every screen this run (a single sale can be flagged by more than one screen). **940 have an automated ordinary explanation** (new construction, a documented construction/renovation permit, consistent with the property's own sale history, a farm or large-lot assessment, or a comparable public listing). **1,107 remain unexplained by anything this pipeline checks automatically.**
 
-Of those 1,105, **0 are new since the last run** (not already unexplained yesterday).
+Of those 1,107, **6 are new since the last run** (not already unexplained yesterday).
 
 | Jurisdiction | Flagged (sale/screen combos) | Unexplained |
 |---|---|---|
-| DC | 1407 | 913 |
+| DC | 1409 | 915 |
 | Montgomery, MD | 306 | 73 |
 | Prince George's, MD | 238 | 91 |
 | Arlington, VA | 76 | 10 |
@@ -41,11 +41,18 @@ Of those 1,105, **0 are new since the last run** (not already unexplained yester
 
 Sales that are unexplained today and were NOT already unexplained on the previous run (i.e. either new sales, or newly flagged by a screen). This is the section worth reading daily; everything below it is the full accumulated backlog.
 
-None.
+| Jurisdiction | Screen | Date | Price | Address | Why flagged |
+|---|---|---|---|---|---|
+| DC | comps, high side (condo) | 2026-06-16 | $1,595,000 | 2801 NEW MEXICO AVE NW APT 409 WASHINGTON DC 20007 | 1.51x comps' $/sqft, 13 comparables |
+| DC | comps, low side (house) | 2026-11-10 | $800,000 | 518 QUINCY ST NW WASHINGTON DC 20011 | 0.62x comps' $/sqft, 13 comparables |
+| DC | comps, low side (house) | 2026-11-10 | $536,000 | 1417 VARNUM ST NW WASHINGTON DC 20011 | 0.56x comps' $/sqft, 20 comparables |
+| DC | comps, low side (house) | 2026-11-10 | $340,000 | 716 CROISSANT PL SE WASHINGTON DC 20019-2212 | 0.56x comps' $/sqft, 15 comparables |
+| DC | comps, low side (house) | 2026-11-10 | $226,000 | 1648 FORT DAVIS ST SE WASHINGTON DC 20020 | 0.56x comps' $/sqft, 26 comparables |
+| DC | comps, low side (condo) | 2026-11-10 | $160,000 | 4402 1ST PL NE # 31 WASHINGTON DC 20011 | 0.54x comps' $/sqft, 10 comparables |
 
 ## All unexplained candidates (largest first)
 
-Address, price, date, and why each was flagged, for all 1,105 sale/screen combinations this run could not automatically explain. No owner, buyer, or seller name is included or was looked up for this list. Showing the 60 largest by price; the remaining 1,045 are in `data/daily_status.json` (same fields, every row).
+Address, price, date, and why each was flagged, for all 1,107 sale/screen combinations this run could not automatically explain. No owner, buyer, or seller name is included or was looked up for this list. Showing the 60 largest by price; the remaining 1,047 are in `data/daily_status.json` (same fields, every row).
 
 | Jurisdiction | Screen | Date | Price | Address | Why flagged |
 |---|---|---|---|---|---|
@@ -59,7 +66,7 @@ Address, price, date, and why each was flagged, for all 1,105 sale/screen combin
 | DC | assessment ratio (multifamily) | 2025-07-24 | $11,800,000 | 4559 BENNING RD SE WASHINGTON DC 20019-5169 | 3.5x the citywide peer price/assessment ratio, $8,542,640 over assessment |
 | DC | OTR 'Unusual' sale code | 2025-07-24 | $11,800,000 | 4559 BENNING RD SE WASHINGTON DC 20019-5169 | OTR-coded Unusual sale at 3.62x the pre-sale assessment |
 | DC | assessment + comps (house) | 2026-09-03 | $11,000,000 | 2930 CHAIN BRIDGE RD NW WASHINGTON DC 20016-3408 | 3.8x the neighborhood peer price/assessment ratio, $8,524,050 over assessment |
-| DC | assessment ratio (other) | 2026-07-22 | $11,000,000 | 1700 18TH ST NW WASHINGTON DC 20009-2508 | 3.6x the neighborhood peer price/assessment ratio, $8,099,740 over assessment |
+| DC | assessment ratio (other) | 2026-07-22 | $11,000,000 | 1700 18TH ST NW WASHINGTON DC 20009-2508 | 3.7x the neighborhood peer price/assessment ratio, $8,099,740 over assessment |
 | DC | assessment ratio (condo) | 2025-10-20 | $10,175,000 | 3150 SOUTH ST NW # 3B WASHINGTON DC 20007 | 2.1x the neighborhood peer price/assessment ratio, $5,512,970 over assessment |
 | Fairfax, VA | assessor-coded atypical | 2025-07-22 | $8,150,000 | 7805 GROVEMONT DR, MCLEAN 22102 | 2.25x pre-sale assessment, assessor code 'Non-representative price based on comps' |
 | DC | assessment ratio (multifamily) | 2026-02-03 | $6,273,852 | 4412 GEORGIA AVE NW WASHINGTON DC 20011-7124 | 2.2x the citywide peer price/assessment ratio, $3,559,672 over assessment |
@@ -82,7 +89,7 @@ Address, price, date, and why each was flagged, for all 1,105 sale/screen combin
 | Montgomery, MD | comps | 2026-07-30 | $4,000,000 | 5906 CEDAR PKWY, CHEVY CHASE | 2.12x comps' $/sqft, 80 comparables |
 | DC | comps, high side (house) | 2025-09-17 | $3,900,000 | 3137 N ST NW WASHINGTON DC 20007-3420 | 1.86x comps' $/sqft, 37 comparables |
 | DC | assessment ratio (multifamily) | 2025-09-29 | $3,895,000 | 1810 I ST NE WASHINGTON DC 20002-4053 | 4.7x the neighborhood peer price/assessment ratio, $3,062,990 over assessment |
-| DC | assessment ratio (other) | 2026-02-09 | $3,700,000 | 1337 11TH ST NW WASHINGTON DC 20001 | 3.1x the neighborhood peer price/assessment ratio, $2,566,620 over assessment |
+| DC | assessment ratio (other) | 2026-02-09 | $3,700,000 | 1337 11TH ST NW WASHINGTON DC 20001 | 3.2x the neighborhood peer price/assessment ratio, $2,566,620 over assessment |
 | DC | bought high, resold lower | 2018-05-18 | $3,699,000 | 2660 CONNECTICUT AVE NW # 6D WASHINGTON DC 20008-1 | resold 2021-12-10 for $2,500,000, 32% below the 2018-05-18 purchase price |
 | DC | assessment + comps (house) | 2026-09-03 | $3,450,000 | 4631 49TH ST NW WASHINGTON DC 20016-4320 | 2.6x the neighborhood peer price/assessment ratio, $2,303,660 over assessment |
 | Prince George's, MD | comps | 2026-01-15 | $3,430,000 | 7610 WOODRUFF CT, LAUREL | 6.86x comps' $/sqft, 118 comparables |
@@ -104,8 +111,8 @@ Address, price, date, and why each was flagged, for all 1,105 sale/screen combin
 | DC | comps, high side (house) | 2026-04-15 | $2,925,000 | 1213 O ST NW WASHINGTON DC 20005 | 1.49x comps' $/sqft, 16 comparables |
 | DC | comps, high side (house) | 2026-06-24 | $2,900,000 | 610 INDEPENDENCE AVE SE WASHINGTON DC 20003 | 1.72x comps' $/sqft, 22 comparables |
 | DC | OTR 'Unusual' sale code | 2026-06-24 | $2,900,000 | 610 INDEPENDENCE AVE SE WASHINGTON DC 20003 | OTR-coded Unusual sale at 1.55x the pre-sale assessment |
-| DC | assessment + comps (house) | 2026-07-08 | $2,875,000 | 1308 CORCORAN ST NW WASHINGTON DC 20009 | 2.36x comps' $/sqft, 49 comparables |
-| DC | comps, high side (house) | 2026-07-08 | $2,875,000 | 1308 CORCORAN ST NW WASHINGTON DC 20009 | 2.36x comps' $/sqft, 49 comparables |
+| DC | assessment + comps (house) | 2026-07-08 | $2,875,000 | 1308 CORCORAN ST NW WASHINGTON DC 20009 | 2.33x comps' $/sqft, 50 comparables |
+| DC | comps, high side (house) | 2026-07-08 | $2,875,000 | 1308 CORCORAN ST NW WASHINGTON DC 20009 | 2.33x comps' $/sqft, 50 comparables |
 | DC | assessment + comps (house) | 2025-03-07 | $2,800,000 | 3623 R ST NW WASHINGTON DC 20007 | 1.34x comps' $/sqft, 10 comparables |
 | DC | comps, high side (house) | 2025-12-11 | $2,800,000 | 1620 RIGGS PL NW WASHINGTON DC 20009 | 1.57x comps' $/sqft, 22 comparables |
 | DC | comps, high side (condo) | 2025-07-30 | $2,800,000 | 601 WHARF ST SW # 602 WASHINGTON DC 20024-3769 | 2.02x comps' $/sqft, 15 comparables |
