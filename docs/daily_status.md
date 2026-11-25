@@ -1,6 +1,6 @@
 # Daily price-anomaly screen
 
-Last run: 2026-11-24 20:49 UTC. Covers sales from 2025-01-01 through each jurisdiction's most recent data pull (below) in DC, Arlington (VA), Montgomery + Prince George's (MD), and Fairfax (VA). Full methodology: [`docs/overpriced_sales.md`](./overpriced_sales.md).
+Last run: 2026-11-25 20:07 UTC. Covers sales from 2025-01-01 through each jurisdiction's most recent data pull (below) in DC, Arlington (VA), Montgomery + Prince George's (MD), and Fairfax (VA). Full methodology: [`docs/overpriced_sales.md`](./overpriced_sales.md).
 
 **This pipeline flags transactions, never people.** No owner, buyer, or seller name is used anywhere in it. A flag is a reason to look, not a finding -- most flagged sales turn out to have an ordinary explanation.
 
@@ -8,22 +8,22 @@ Last run: 2026-11-24 20:49 UTC. Covers sales from 2025-01-01 through each jurisd
 
 | Jurisdiction | Latest sale in the pull | 2025+ sales on file | New since last run |
 |---|---|---|---|
-| DC | 2026-11-16 | 17,250 | +36 |
-| Arlington, VA | 2026-11-20 | 5,339 | +12 |
+| DC | 2026-11-17 | 17,271 | +21 |
+| Arlington, VA | 2026-11-23 | 5,349 | +10 |
 | Montgomery + Prince George's, MD | 2026-10-29 | 67,759 | +0 |
 | Fairfax, VA | 2026-09-15 | 25,676 | +0 |
 
-**116,024 sales on file since 2025-01-01 across all four areas (+48 new since the last run).**
+**116,055 sales on file since 2025-01-01 across all four areas (+31 new since the last run).**
 
 ## Flagged as price outliers
 
-**2,052 sale/screen combinations flagged** across every screen this run (a single sale can be flagged by more than one screen). **943 have an automated ordinary explanation** (new construction, a documented construction/renovation permit, consistent with the property's own sale history, a farm or large-lot assessment, or a comparable public listing). **1,109 remain unexplained by anything this pipeline checks automatically.**
+**2,052 sale/screen combinations flagged** across every screen this run (a single sale can be flagged by more than one screen). **942 have an automated ordinary explanation** (new construction, a documented construction/renovation permit, consistent with the property's own sale history, a farm or large-lot assessment, or a comparable public listing). **1,110 remain unexplained by anything this pipeline checks automatically.**
 
-Of those 1,109, **3 are new since the last run** (not already unexplained yesterday).
+Of those 1,110, **1 are new since the last run** (not already unexplained yesterday).
 
 | Jurisdiction | Flagged (sale/screen combos) | Unexplained |
 |---|---|---|
-| DC | 1414 | 917 |
+| DC | 1414 | 918 |
 | Montgomery, MD | 306 | 73 |
 | Prince George's, MD | 238 | 91 |
 | Arlington, VA | 76 | 10 |
@@ -43,13 +43,11 @@ Sales that are unexplained today and were NOT already unexplained on the previou
 
 | Jurisdiction | Screen | Date | Price | Address | Why flagged |
 |---|---|---|---|---|---|
-| DC | comps, high side (house) | 2026-11-16 | $1,189,000 | 3803 LEGATION ST NW WASHINGTON DC 20015 | 1.34x comps' $/sqft, 10 comparables |
-| DC | comps, low side (house) | 2026-11-16 | $859,900 | 5544 29TH ST NW WASHINGTON DC 20015-1202 | 0.72x comps' $/sqft, 29 comparables |
-| DC | comps, low side (condo) | 2026-06-12 | $110,000 | 948 EASTERN AVE NE APT 3 WASHINGTON DC 20019-7075 | 0.55x comps' $/sqft, 10 comparables |
+| DC | comps, low side (house) | 2026-11-17 | $960,000 | 4320 VERPLANCK PL NW WASHINGTON DC 20016-2428 | 0.61x comps' $/sqft, 13 comparables |
 
 ## All unexplained candidates (largest first)
 
-Address, price, date, and why each was flagged, for all 1,109 sale/screen combinations this run could not automatically explain. No owner, buyer, or seller name is included or was looked up for this list. Showing the 60 largest by price; the remaining 1,049 are in `data/daily_status.json` (same fields, every row).
+Address, price, date, and why each was flagged, for all 1,110 sale/screen combinations this run could not automatically explain. No owner, buyer, or seller name is included or was looked up for this list. Showing the 60 largest by price; the remaining 1,050 are in `data/daily_status.json` (same fields, every row).
 
 | Jurisdiction | Screen | Date | Price | Address | Why flagged |
 |---|---|---|---|---|---|
@@ -106,7 +104,7 @@ Address, price, date, and why each was flagged, for all 1,109 sale/screen combin
 | DC | comps, high side (house) | 2025-01-13 | $2,950,000 | 1519 SWANN ST NW WASHINGTON DC 20009 | 1.88x comps' $/sqft, 16 comparables |
 | DC | assessment + comps (house) | 2026-04-15 | $2,925,000 | 1213 O ST NW WASHINGTON DC 20005 | 1.49x comps' $/sqft, 16 comparables |
 | DC | comps, high side (house) | 2026-04-15 | $2,925,000 | 1213 O ST NW WASHINGTON DC 20005 | 1.49x comps' $/sqft, 16 comparables |
-| DC | comps, high side (house) | 2026-06-24 | $2,900,000 | 610 INDEPENDENCE AVE SE WASHINGTON DC 20003 | 1.69x comps' $/sqft, 23 comparables |
+| DC | comps, high side (house) | 2026-06-24 | $2,900,000 | 610 INDEPENDENCE AVE SE WASHINGTON DC 20003 | 1.72x comps' $/sqft, 22 comparables |
 | DC | OTR 'Unusual' sale code | 2026-06-24 | $2,900,000 | 610 INDEPENDENCE AVE SE WASHINGTON DC 20003 | OTR-coded Unusual sale at 1.55x the pre-sale assessment |
 | DC | assessment + comps (house) | 2026-07-08 | $2,875,000 | 1308 CORCORAN ST NW WASHINGTON DC 20009 | 2.33x comps' $/sqft, 50 comparables |
 | DC | comps, high side (house) | 2026-07-08 | $2,875,000 | 1308 CORCORAN ST NW WASHINGTON DC 20009 | 2.33x comps' $/sqft, 50 comparables |

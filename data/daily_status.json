@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-24T20:49:58+00:00",
+ "generated_at": "2026-11-25T20:07:58+00:00",
  "as_of": {
-  "DC": "2026-11-16",
-  "Arlington, VA": "2026-11-20",
+  "DC": "2026-11-17",
+  "Arlington, VA": "2026-11-23",
   "Montgomery + Prince George's, MD": "2026-10-29",
   "Fairfax, VA": "2026-09-15"
  },
  "pulled_counts": {
-  "DC": 17250,
-  "Arlington, VA": 5339,
+  "DC": 17271,
+  "Arlington, VA": 5349,
   "Montgomery + Prince George's, MD": 67759,
   "Fairfax, VA": 25676
  },
  "total_flagged": 2052,
- "total_unexplained": 1109,
+ "total_unexplained": 1110,
  "flagged_by_jurisdiction": {
   "DC": 1414,
   "Arlington, VA": 76,
@@ -22,7 +22,7 @@
   "Fairfax, VA": 18
  },
  "unexplained_by_jurisdiction": {
-  "DC": 917,
+  "DC": 918,
   "Arlington, VA": 10,
   "Montgomery, MD": 73,
   "Prince George's, MD": 91,
@@ -212,7 +212,7 @@
    "date": "2026-06-04",
    "price": 2450000.0,
    "address": "4910 BRANDYWINE ST NW WASHINGTON DC 20016",
-   "flag_reason": "1.4x comps' $/sqft, 17 comparables",
+   "flag_reason": "1.41x comps' $/sqft, 18 comparables",
    "explained": false,
    "reason": "unchecked: no listing check recorded"
   },
@@ -256,7 +256,7 @@
    "date": "2026-07-09",
    "price": 1875000.0,
    "address": "1227 E ST SE WASHINGTON DC 20003-2221",
-   "flag_reason": "1.36x comps' $/sqft, 68 comparables",
+   "flag_reason": "1.36x comps' $/sqft, 69 comparables",
    "explained": false,
    "reason": "unchecked: no listing check recorded"
   },
@@ -637,17 +637,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|0069    2116|2026-10-21",
-   "date": "2026-10-21",
-   "price": 209900.0,
-   "address": "1308 21ST ST NW # B1 WASHINGTON DC 20036",
-   "flag_reason": "0.66x comps' $/sqft, 21 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|0070    2133|2026-01-09",
    "date": "2026-01-09",
    "price": 190000.0,
@@ -658,12 +647,12 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (condo)",
-   "key": "DC|comps_both_ways|high|0071    2094|2025-06-09",
-   "date": "2025-06-09",
-   "price": 2190000.0,
-   "address": "1177 22ND ST NW # 9J WASHINGTON DC 20037",
-   "flag_reason": "1.47x comps' $/sqft, 38 comparables",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|0069    2116|2026-10-21",
+   "date": "2026-10-21",
+   "price": 209900.0,
+   "address": "1308 21ST ST NW # B1 WASHINGTON DC 20036",
+   "flag_reason": "0.66x comps' $/sqft, 21 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -675,6 +664,17 @@
    "price": 285000.0,
    "address": "2141 I ST NW # 505 WASHINGTON DC 20037-2365",
    "flag_reason": "1.35x comps' $/sqft, 14 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (condo)",
+   "key": "DC|comps_both_ways|high|0071    2094|2025-06-09",
+   "date": "2025-06-09",
+   "price": 2190000.0,
+   "address": "1177 22ND ST NW # 9J WASHINGTON DC 20037",
+   "flag_reason": "1.47x comps' $/sqft, 38 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -718,7 +718,7 @@
    "date": "2026-07-21",
    "price": 610000.0,
    "address": "1730 NEW HAMPSHIRE AVE NW # 16 WASHINGTON DC 20009",
-   "flag_reason": "1.72x comps' $/sqft, 91 comparables",
+   "flag_reason": "1.72x comps' $/sqft, 93 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -729,7 +729,7 @@
    "date": "2026-07-06",
    "price": 199000.0,
    "address": "1725 NEW HAMPSHIRE AVE NW # 204 WASHINGTON DC 2000",
-   "flag_reason": "0.72x comps' $/sqft, 38 comparables",
+   "flag_reason": "0.71x comps' $/sqft, 39 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -740,18 +740,7 @@
    "date": "2026-08-21",
    "price": 241000.0,
    "address": "1727 MASSACHUSETTS AVE NW # 502 WASHINGTON DC 2003",
-   "flag_reason": "0.48x comps' $/sqft, 168 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|0178    0025|2025-12-11",
-   "date": "2025-12-11",
-   "price": 2800000.0,
-   "address": "1620 RIGGS PL NW WASHINGTON DC 20009",
-   "flag_reason": "1.57x comps' $/sqft, 22 comparables",
+   "flag_reason": "0.48x comps' $/sqft, 170 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -763,6 +752,17 @@
    "price": 440000.0,
    "address": "1634 S ST NW # 6 WASHINGTON DC 20009-6416",
    "flag_reason": "1.71x comps' $/sqft, 75 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (house)",
+   "key": "DC|comps_both_ways|high|0178    0025|2025-12-11",
+   "date": "2025-12-11",
+   "price": 2800000.0,
+   "address": "1620 RIGGS PL NW WASHINGTON DC 20009",
+   "flag_reason": "1.57x comps' $/sqft, 22 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -828,7 +828,7 @@
    "date": "2026-09-16",
    "price": 445000.0,
    "address": "1634 14TH ST NW # 502 WASHINGTON DC 20009",
-   "flag_reason": "1.78x comps' $/sqft, 29 comparables",
+   "flag_reason": "1.77x comps' $/sqft, 30 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -889,17 +889,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|0239    2006|2026-07-30",
-   "date": "2026-07-30",
-   "price": 545000.0,
-   "address": "1332 S ST NW WASHINGTON DC 20009-4330",
-   "flag_reason": "0.46x comps' $/sqft, 11 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, high side (house)",
    "key": "DC|comps_both_ways|high|0240    0134|2026-07-08",
    "date": "2026-07-08",
@@ -917,6 +906,17 @@
    "price": 2075000.0,
    "address": "1341 Q ST NW # B WASHINGTON DC 20009",
    "flag_reason": "1.5x comps' $/sqft, 16 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|0239    2006|2026-07-30",
+   "date": "2026-07-30",
+   "price": 545000.0,
+   "address": "1332 S ST NW WASHINGTON DC 20009-4330",
+   "flag_reason": "0.46x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -971,7 +971,7 @@
    "date": "2026-09-11",
    "price": 205000.0,
    "address": "1125 12TH ST NW # 64 WASHINGTON DC 20005",
-   "flag_reason": "0.73x comps' $/sqft, 40 comparables",
+   "flag_reason": "0.73x comps' $/sqft, 41 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -999,23 +999,23 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|0360    0050|2026-11-12",
-   "date": "2026-11-12",
-   "price": 351000.0,
-   "address": "2017 VERMONT AVE NW WASHINGTON DC 20001",
-   "flag_reason": "0.27x comps' $/sqft, 34 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|0361    2010|2025-06-12",
    "date": "2025-06-12",
    "price": 480000.0,
    "address": "1932 9TH ST NW # R302 WASHINGTON DC 20001-5146",
    "flag_reason": "0.57x comps' $/sqft, 118 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|0360    0050|2026-11-12",
+   "date": "2026-11-12",
+   "price": 351000.0,
+   "address": "2017 VERMONT AVE NW WASHINGTON DC 20001",
+   "flag_reason": "0.27x comps' $/sqft, 34 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1038,17 +1038,6 @@
    "price": 475000.0,
    "address": "801 PENNSYLVANIA AVE NW # 1208 WASHINGTON DC 20004",
    "flag_reason": "1.45x comps' $/sqft, 28 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|0455    2022|2025-09-29",
-   "date": "2025-09-29",
-   "price": 270000.0,
-   "address": "777 7TH ST NW # 420 WASHINGTON DC 20001",
-   "flag_reason": "0.63x comps' $/sqft, 96 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1093,6 +1082,17 @@
    "price": 280000.0,
    "address": "777 7TH ST NW # 1124 WASHINGTON DC 20001",
    "flag_reason": "0.42x comps' $/sqft, 78 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|0455    2022|2025-09-29",
+   "date": "2025-09-29",
+   "price": 270000.0,
+   "address": "777 7TH ST NW # 420 WASHINGTON DC 20001",
+   "flag_reason": "0.63x comps' $/sqft, 96 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1208,23 +1208,23 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|0504    2182|2026-08-07",
-   "date": "2026-08-07",
-   "price": 199999.0,
-   "address": "1435 4TH ST SW APT B609 WASHINGTON DC 20024-2214",
-   "flag_reason": "0.55x comps' $/sqft, 12 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|0509    0139|2026-10-05",
    "date": "2026-10-05",
    "price": 310000.0,
    "address": "441 WARNER ST NW WASHINGTON DC 20001",
    "flag_reason": "0.41x comps' $/sqft, 15 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|0504    2182|2026-08-07",
+   "date": "2026-08-07",
+   "price": 199999.0,
+   "address": "1435 4TH ST SW APT B609 WASHINGTON DC 20024-2214",
+   "flag_reason": "0.55x comps' $/sqft, 12 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1488,7 +1488,7 @@
    "date": "2026-09-28",
    "price": 1475000.0,
    "address": "1211 VAN ST SE # PH-13B WASHINGTON DC 20003-4670",
-   "flag_reason": "1.77x comps' $/sqft, 17 comparables",
+   "flag_reason": "1.75x comps' $/sqft, 18 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1510,7 +1510,7 @@
    "date": "2026-08-07",
    "price": 800000.0,
    "address": "176 NORTH CAROLINA AVE SE WASHINGTON DC 20003",
-   "flag_reason": "0.4x comps' $/sqft, 16 comparables",
+   "flag_reason": "0.41x comps' $/sqft, 15 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1609,7 +1609,7 @@
    "date": "2026-09-14",
    "price": 1199000.0,
    "address": "122 3RD ST SE WASHINGTON DC 20003",
-   "flag_reason": "0.63x comps' $/sqft, 12 comparables",
+   "flag_reason": "0.66x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1642,7 +1642,7 @@
    "date": "2026-09-17",
    "price": 1060000.0,
    "address": "504 C ST NE # 4 WASHINGTON DC 20002-5810",
-   "flag_reason": "1.74x comps' $/sqft, 43 comparables",
+   "flag_reason": "1.73x comps' $/sqft, 44 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1675,7 +1675,7 @@
    "date": "2026-06-24",
    "price": 2900000.0,
    "address": "610 INDEPENDENCE AVE SE WASHINGTON DC 20003",
-   "flag_reason": "1.69x comps' $/sqft, 23 comparables",
+   "flag_reason": "1.72x comps' $/sqft, 22 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1825,6 +1825,17 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|0972    0007|2025-06-20",
+   "date": "2025-06-20",
+   "price": 1087000.0,
+   "address": "407 11TH ST SE WASHINGTON DC 20003",
+   "flag_reason": "0.57x comps' $/sqft, 11 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|0981    0096|2025-12-16",
    "date": "2025-12-16",
    "price": 599000.0,
@@ -1841,17 +1852,6 @@
    "price": 785000.0,
    "address": "246 10TH ST SE WASHINGTON DC 20003",
    "flag_reason": "0.62x comps' $/sqft, 36 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|0972    0007|2025-06-20",
-   "date": "2025-06-20",
-   "price": 1087000.0,
-   "address": "407 11TH ST SE WASHINGTON DC 20003",
-   "flag_reason": "0.57x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1917,7 +1917,7 @@
    "date": "2026-07-09",
    "price": 1875000.0,
    "address": "1227 E ST SE WASHINGTON DC 20003-2221",
-   "flag_reason": "1.36x comps' $/sqft, 68 comparables",
+   "flag_reason": "1.36x comps' $/sqft, 69 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -1968,22 +1968,22 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|1053N   0041|2026-10-23",
-   "date": "2026-10-23",
-   "price": 450000.0,
-   "address": "1418 E ST NE WASHINGTON DC 20002",
-   "flag_reason": "0.48x comps' $/sqft, 134 comparables",
+   "key": "DC|comps_both_ways|low|1054    0232|2025-03-10",
+   "date": "2025-03-10",
+   "price": 575000.0,
+   "address": "322 15TH ST NE WASHINGTON DC 20002",
+   "flag_reason": "0.68x comps' $/sqft, 92 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|1054    0232|2025-03-10",
-   "date": "2025-03-10",
-   "price": 575000.0,
-   "address": "322 15TH ST NE WASHINGTON DC 20002",
-   "flag_reason": "0.68x comps' $/sqft, 92 comparables",
+   "key": "DC|comps_both_ways|low|1053N   0041|2026-10-23",
+   "date": "2026-10-23",
+   "price": 450000.0,
+   "address": "1418 E ST NE WASHINGTON DC 20002",
+   "flag_reason": "0.48x comps' $/sqft, 134 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2005,7 +2005,7 @@
    "date": "2026-10-23",
    "price": 770000.0,
    "address": "1337 K ST SE # PH-3 WASHINGTON DC 20003-4407",
-   "flag_reason": "1.32x comps' $/sqft, 39 comparables",
+   "flag_reason": "1.31x comps' $/sqft, 40 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2088,17 +2088,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|1102    0087|2025-08-28",
-   "date": "2025-08-28",
-   "price": 475000.0,
-   "address": "1734 POTOMAC AVE SE WASHINGTON DC 20003-3135",
-   "flag_reason": "0.51x comps' $/sqft, 227 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|1096    2016|2025-09-15",
    "date": "2025-09-15",
@@ -2115,7 +2104,18 @@
    "date": "2026-08-28",
    "price": 430000.0,
    "address": "1729 BAY ST SE WASHINGTON DC 20003",
-   "flag_reason": "0.34x comps' $/sqft, 121 comparables",
+   "flag_reason": "0.34x comps' $/sqft, 122 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|1102    0087|2025-08-28",
+   "date": "2025-08-28",
+   "price": 475000.0,
+   "address": "1734 POTOMAC AVE SE WASHINGTON DC 20003-3135",
+   "flag_reason": "0.51x comps' $/sqft, 227 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2176,17 +2176,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (condo)",
-   "key": "DC|comps_both_ways|high|1234    2010|2026-11-05",
-   "date": "2026-11-05",
-   "price": 1060000.0,
-   "address": "1305 30TH ST NW # 204 WASHINGTON DC 20007-3317",
-   "flag_reason": "1.4x comps' $/sqft, 18 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, high side (house)",
    "key": "DC|comps_both_ways|high|1227    0091|2026-06-25",
    "date": "2026-06-25",
@@ -2215,6 +2204,17 @@
    "price": 3900000.0,
    "address": "3137 N ST NW WASHINGTON DC 20007-3420",
    "flag_reason": "1.86x comps' $/sqft, 37 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (condo)",
+   "key": "DC|comps_both_ways|high|1234    2010|2026-11-05",
+   "date": "2026-11-05",
+   "price": 1060000.0,
+   "address": "1305 30TH ST NW # 204 WASHINGTON DC 20007-3317",
+   "flag_reason": "1.4x comps' $/sqft, 18 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2275,6 +2275,17 @@
   },
   {
    "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|1270    0813|2026-07-06",
+   "date": "2026-07-06",
+   "price": 2750000.0,
+   "address": "1532 31ST ST NW WASHINGTON DC 20007-3074",
+   "flag_reason": "0.75x comps' $/sqft, 18 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|1264E   2050|2025-06-12",
    "date": "2025-06-12",
@@ -2292,17 +2303,6 @@
    "price": 370000.0,
    "address": "2500 Q ST NW # 411 WASHINGTON DC 20007",
    "flag_reason": "0.46x comps' $/sqft, 25 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|1270    0813|2026-07-06",
-   "date": "2026-07-06",
-   "price": 2750000.0,
-   "address": "1532 31ST ST NW WASHINGTON DC 20007-3074",
-   "flag_reason": "0.75x comps' $/sqft, 18 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2352,6 +2352,17 @@
   },
   {
    "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|1301    0634|2026-10-21",
+   "date": "2026-10-21",
+   "price": 860000.0,
+   "address": "2450 TUNLAW RD NW WASHINGTON DC 20007-1839",
+   "flag_reason": "0.65x comps' $/sqft, 10 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
    "screen": "comps, high side (condo)",
    "key": "DC|comps_both_ways|high|1299    2019|2025-06-09",
    "date": "2025-06-09",
@@ -2369,17 +2380,6 @@
    "price": 499000.0,
    "address": "2111 WISCONSIN AVE NW # 316 WASHINGTON DC 20007",
    "flag_reason": "1.47x comps' $/sqft, 10 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|1301    0634|2026-10-21",
-   "date": "2026-10-21",
-   "price": 860000.0,
-   "address": "2450 TUNLAW RD NW WASHINGTON DC 20007-1839",
-   "flag_reason": "0.65x comps' $/sqft, 10 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2451,17 +2451,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|1346    0005|2025-09-03",
-   "date": "2025-09-03",
-   "price": 5000000.0,
-   "address": "4414 W ST NW WASHINGTON DC 20007",
-   "flag_reason": "1.7x comps' $/sqft, 12 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|1334    2006|2026-06-17",
    "date": "2026-06-17",
@@ -2479,6 +2468,17 @@
    "price": 3300000.0,
    "address": "4540 DEXTER ST NW WASHINGTON DC 20007",
    "flag_reason": "1.64x comps' $/sqft, 10 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (house)",
+   "key": "DC|comps_both_ways|high|1346    0005|2025-09-03",
+   "date": "2025-09-03",
+   "price": 5000000.0,
+   "address": "4414 W ST NW WASHINGTON DC 20007",
+   "flag_reason": "1.7x comps' $/sqft, 12 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2506,17 +2506,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|1443    0803|2026-07-16",
-   "date": "2026-07-16",
-   "price": 1725000.0,
-   "address": "5404 CATHEDRAL AVE NW WASHINGTON DC 20016-2532",
-   "flag_reason": "1.37x comps' $/sqft, 12 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|1447    0904|2026-03-10",
    "date": "2026-03-10",
@@ -2539,23 +2528,12 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|1453    0870|2026-10-01",
-   "date": "2026-10-01",
-   "price": 850000.0,
-   "address": "5701 SHERIER PL NW WASHINGTON DC 20016-5321",
-   "flag_reason": "0.64x comps' $/sqft, 11 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|1486    0082|2026-06-04",
-   "date": "2026-06-04",
-   "price": 2450000.0,
-   "address": "4910 BRANDYWINE ST NW WASHINGTON DC 20016",
-   "flag_reason": "1.4x comps' $/sqft, 17 comparables",
+   "key": "DC|comps_both_ways|high|1443    0803|2026-07-16",
+   "date": "2026-07-16",
+   "price": 1725000.0,
+   "address": "5404 CATHEDRAL AVE NW WASHINGTON DC 20016-2532",
+   "flag_reason": "1.37x comps' $/sqft, 12 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2567,6 +2545,17 @@
    "price": 1200000.0,
    "address": "4632 49TH ST NW WASHINGTON DC 20016",
    "flag_reason": "0.68x comps' $/sqft, 13 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|1453    0870|2026-10-01",
+   "date": "2026-10-01",
+   "price": 850000.0,
+   "address": "5701 SHERIER PL NW WASHINGTON DC 20016-5321",
+   "flag_reason": "0.64x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2589,6 +2578,17 @@
    "price": 2000000.0,
    "address": "5126 WARREN PL NW WASHINGTON DC 20016",
    "flag_reason": "0.71x comps' $/sqft, 11 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (house)",
+   "key": "DC|comps_both_ways|high|1486    0082|2026-06-04",
+   "date": "2026-06-04",
+   "price": 2450000.0,
+   "address": "4910 BRANDYWINE ST NW WASHINGTON DC 20016",
+   "flag_reason": "1.41x comps' $/sqft, 18 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2628,6 +2628,28 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|1647    0814|2025-04-17",
+   "date": "2025-04-17",
+   "price": 875000.0,
+   "address": "4543 44TH ST NW WASHINGTON DC 20016-4545",
+   "flag_reason": "0.75x comps' $/sqft, 20 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|1641    0039|2026-11-17",
+   "date": "2026-11-17",
+   "price": 960000.0,
+   "address": "4320 VERPLANCK PL NW WASHINGTON DC 20016-2428",
+   "flag_reason": "0.61x comps' $/sqft, 13 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|1641    0039|2026-07-16",
    "date": "2026-07-16",
    "price": 960000.0,
@@ -2650,17 +2672,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|1647    0814|2025-04-17",
-   "date": "2025-04-17",
-   "price": 875000.0,
-   "address": "4543 44TH ST NW WASHINGTON DC 20016-4545",
-   "flag_reason": "0.75x comps' $/sqft, 20 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|1650    0022|2025-05-12",
    "date": "2025-05-12",
    "price": 1178000.0,
@@ -2677,6 +2688,17 @@
    "price": 590000.0,
    "address": "2610 41ST ST NW # 6 WASHINGTON DC 20007-1267",
    "flag_reason": "1.75x comps' $/sqft, 16 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|1717    2020|2026-03-19",
+   "date": "2026-03-19",
+   "price": 600000.0,
+   "address": "4301 MASSACHUSETTS AVE NW # A304 WASHINGTON DC 200",
+   "flag_reason": "0.69x comps' $/sqft, 10 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2726,34 +2748,12 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|1717    2020|2026-03-19",
-   "date": "2026-03-19",
-   "price": 600000.0,
-   "address": "4301 MASSACHUSETTS AVE NW # A304 WASHINGTON DC 200",
-   "flag_reason": "0.69x comps' $/sqft, 10 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|1748    0066|2026-10-23",
    "date": "2026-10-23",
    "price": 900000.0,
    "address": "3943 LIVINGSTON ST NW WASHINGTON DC 20015",
    "flag_reason": "0.71x comps' $/sqft, 43 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, high side (condo)",
-   "key": "DC|comps_both_ways|high|1805    2460|2025-11-18",
-   "date": "2025-11-18",
-   "price": 1075000.0,
-   "address": "2801 NEW MEXICO AVE NW # 1219 WASHINGTON DC 20007",
-   "flag_reason": "1.31x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2793,6 +2793,17 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, high side (condo)",
+   "key": "DC|comps_both_ways|high|1805    2460|2025-11-18",
+   "date": "2025-11-18",
+   "price": 1075000.0,
+   "address": "2801 NEW MEXICO AVE NW # 1219 WASHINGTON DC 20007",
+   "flag_reason": "1.31x comps' $/sqft, 11 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (condo)",
    "key": "DC|comps_both_ways|high|1807    2122|2026-02-12",
    "date": "2026-02-12",
    "price": 720000.0,
@@ -2809,28 +2820,6 @@
    "price": 547500.0,
    "address": "2639 41ST ST NW # 5 WASHINGTON DC 20007-1273",
    "flag_reason": "1.72x comps' $/sqft, 14 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|1815    2082|2025-11-13",
-   "date": "2025-11-13",
-   "price": 212500.0,
-   "address": "3901 CATHEDRAL AVE NW # 82 WASHINGTON DC 20016",
-   "flag_reason": "0.62x comps' $/sqft, 11 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|1815    2121|2026-08-27",
-   "date": "2026-08-27",
-   "price": 194000.0,
-   "address": "3901 CATHEDRAL AVE NW # 121 WASHINGTON DC 20016",
-   "flag_reason": "0.58x comps' $/sqft, 13 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2864,6 +2853,28 @@
    "price": 190000.0,
    "address": "3901 CATHEDRAL AVE NW # 26 WASHINGTON DC 20016",
    "flag_reason": "0.61x comps' $/sqft, 12 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|1815    2082|2025-11-13",
+   "date": "2025-11-13",
+   "price": 212500.0,
+   "address": "3901 CATHEDRAL AVE NW # 82 WASHINGTON DC 20016",
+   "flag_reason": "0.62x comps' $/sqft, 11 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|1815    2121|2026-08-27",
+   "date": "2026-08-27",
+   "price": 194000.0,
+   "address": "3901 CATHEDRAL AVE NW # 121 WASHINGTON DC 20016",
+   "flag_reason": "0.58x comps' $/sqft, 13 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -2957,23 +2968,23 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|1956    0120|2025-08-27",
-   "date": "2025-08-27",
-   "price": 1920000.0,
-   "address": "3518 35TH ST NW WASHINGTON DC 20016",
-   "flag_reason": "1.3x comps' $/sqft, 13 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|1968    0810|2026-08-27",
    "date": "2026-08-27",
    "price": 875000.0,
    "address": "3644 ALTON PL NW WASHINGTON DC 20008",
    "flag_reason": "0.59x comps' $/sqft, 20 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (house)",
+   "key": "DC|comps_both_ways|high|1956    0120|2025-08-27",
+   "date": "2025-08-27",
+   "price": 1920000.0,
+   "address": "3518 35TH ST NW WASHINGTON DC 20016",
+   "flag_reason": "1.3x comps' $/sqft, 13 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3156,22 +3167,22 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2318    0804|2025-04-23",
-   "date": "2025-04-23",
-   "price": 1000000.0,
-   "address": "5834 OREGON AVE NW WASHINGTON DC 20015",
-   "flag_reason": "0.58x comps' $/sqft, 45 comparables",
+   "key": "DC|comps_both_ways|low|2298    0810|2026-11-16",
+   "date": "2026-11-16",
+   "price": 859900.0,
+   "address": "5544 29TH ST NW WASHINGTON DC 20015-1202",
+   "flag_reason": "0.72x comps' $/sqft, 29 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2298    0810|2026-11-16",
-   "date": "2026-11-16",
-   "price": 859900.0,
-   "address": "5544 29TH ST NW WASHINGTON DC 20015-1202",
-   "flag_reason": "0.72x comps' $/sqft, 29 comparables",
+   "key": "DC|comps_both_ways|low|2318    0804|2025-04-23",
+   "date": "2025-04-23",
+   "price": 1000000.0,
+   "address": "5834 OREGON AVE NW WASHINGTON DC 20015",
+   "flag_reason": "0.58x comps' $/sqft, 45 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3309,17 +3320,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (condo)",
-   "key": "DC|comps_both_ways|high|2560    5011|2025-03-12",
-   "date": "2025-03-12",
-   "price": 805000.0,
-   "address": "2328 CHAMPLAIN ST NW # 305 WASHINGTON DC 20009",
-   "flag_reason": "1.35x comps' $/sqft, 24 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|2555    2145|2025-01-21",
    "date": "2025-01-21",
@@ -3337,6 +3337,17 @@
    "price": 470000.0,
    "address": "1840 VERNON ST NW # 405 WASHINGTON DC 20009",
    "flag_reason": "1.3x comps' $/sqft, 25 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (condo)",
+   "key": "DC|comps_both_ways|high|2560    5011|2025-03-12",
+   "date": "2025-03-12",
+   "price": 805000.0,
+   "address": "2328 CHAMPLAIN ST NW # 305 WASHINGTON DC 20009",
+   "flag_reason": "1.35x comps' $/sqft, 24 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3419,17 +3430,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|2596    2006|2025-02-06",
-   "date": "2025-02-06",
-   "price": 130000.0,
-   "address": "1615 KENYON ST NW # 5 WASHINGTON DC 20010",
-   "flag_reason": "0.33x comps' $/sqft, 15 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, high side (house)",
    "key": "DC|comps_both_ways|high|2591    0793|2026-06-17",
    "date": "2026-06-17",
@@ -3453,11 +3453,11 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|2609    2030|2025-06-05",
-   "date": "2025-06-05",
-   "price": 245000.0,
-   "address": "1673 PARK RD NW # B2 WASHINGTON DC 20010",
-   "flag_reason": "0.48x comps' $/sqft, 32 comparables",
+   "key": "DC|comps_both_ways|low|2596    2006|2025-02-06",
+   "date": "2025-02-06",
+   "price": 130000.0,
+   "address": "1615 KENYON ST NW # 5 WASHINGTON DC 20010",
+   "flag_reason": "0.33x comps' $/sqft, 15 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3496,12 +3496,12 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2621    0767|2026-11-05",
-   "date": "2026-11-05",
-   "price": 770000.0,
-   "address": "3419 OAKWOOD TER NW WASHINGTON DC 20010",
-   "flag_reason": "0.5x comps' $/sqft, 14 comparables",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|2609    2030|2025-06-05",
+   "date": "2025-06-05",
+   "price": 245000.0,
+   "address": "1673 PARK RD NW # B2 WASHINGTON DC 20010",
+   "flag_reason": "0.48x comps' $/sqft, 32 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3557,6 +3557,17 @@
    "price": 925000.0,
    "address": "2019 ROSEMOUNT AVE NW WASHINGTON DC 20010",
    "flag_reason": "0.72x comps' $/sqft, 11 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|2621    0767|2026-11-05",
+   "date": "2026-11-05",
+   "price": 770000.0,
+   "address": "3419 OAKWOOD TER NW WASHINGTON DC 20010",
+   "flag_reason": "0.5x comps' $/sqft, 14 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3694,28 +3705,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2687    0824|2026-05-26",
-   "date": "2026-05-26",
-   "price": 718717.0,
-   "address": "3544 HERTFORD PL NW WASHINGTON DC 20010-3038",
-   "flag_reason": "0.72x comps' $/sqft, 33 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2688    0044|2025-12-23",
-   "date": "2025-12-23",
-   "price": 550000.0,
-   "address": "1428 PARKWOOD PL NW WASHINGTON DC 20010",
-   "flag_reason": "0.64x comps' $/sqft, 53 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|2696    2021|2026-05-18",
    "date": "2026-05-18",
@@ -3733,6 +3722,28 @@
    "price": 233000.0,
    "address": "4120 14TH ST NW # 31 WASHINGTON DC 20011",
    "flag_reason": "0.54x comps' $/sqft, 43 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|2687    0824|2026-05-26",
+   "date": "2026-05-26",
+   "price": 718717.0,
+   "address": "3544 HERTFORD PL NW WASHINGTON DC 20010-3038",
+   "flag_reason": "0.72x comps' $/sqft, 33 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|2688    0044|2025-12-23",
+   "date": "2025-12-23",
+   "price": 550000.0,
+   "address": "1428 PARKWOOD PL NW WASHINGTON DC 20010",
+   "flag_reason": "0.64x comps' $/sqft, 53 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3776,7 +3787,7 @@
    "date": "2026-11-10",
    "price": 536000.0,
    "address": "1417 VARNUM ST NW WASHINGTON DC 20011",
-   "flag_reason": "0.56x comps' $/sqft, 20 comparables",
+   "flag_reason": "0.56x comps' $/sqft, 21 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3809,7 +3820,7 @@
    "date": "2026-09-08",
    "price": 580000.0,
    "address": "5703 COLORADO AVE NW WASHINGTON DC 20011",
-   "flag_reason": "0.65x comps' $/sqft, 19 comparables",
+   "flag_reason": "0.65x comps' $/sqft, 20 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3860,28 +3871,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2823    0038|2025-04-02",
-   "date": "2025-04-02",
-   "price": 625233.0,
-   "address": "4017 14TH ST NW WASHINGTON DC 20011",
-   "flag_reason": "0.54x comps' $/sqft, 41 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2823    0040|2026-02-05",
-   "date": "2026-02-05",
-   "price": 635000.0,
-   "address": "1345 SHEPHERD ST NW WASHINGTON DC 20011",
-   "flag_reason": "0.61x comps' $/sqft, 50 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|2824    0106|2026-04-28",
    "date": "2026-04-28",
    "price": 595000.0,
@@ -3909,6 +3898,28 @@
    "price": 400000.0,
    "address": "1305 TAYLOR ST NW WASHINGTON DC 20011",
    "flag_reason": "0.53x comps' $/sqft, 39 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|2823    0038|2025-04-02",
+   "date": "2025-04-02",
+   "price": 625233.0,
+   "address": "4017 14TH ST NW WASHINGTON DC 20011",
+   "flag_reason": "0.54x comps' $/sqft, 41 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|2823    0040|2026-02-05",
+   "date": "2026-02-05",
+   "price": 635000.0,
+   "address": "1345 SHEPHERD ST NW WASHINGTON DC 20011",
+   "flag_reason": "0.61x comps' $/sqft, 50 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -3958,6 +3969,17 @@
   },
   {
    "jurisdiction": "DC",
+   "screen": "comps, high side (condo)",
+   "key": "DC|comps_both_ways|high|2865    2090|2026-06-26",
+   "date": "2026-06-26",
+   "price": 1200000.0,
+   "address": "2534 11TH ST NW # 2 WASHINGTON DC 20001-3924",
+   "flag_reason": "1.37x comps' $/sqft, 21 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|2859    2012|2026-04-27",
    "date": "2026-04-27",
@@ -3991,23 +4013,23 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (condo)",
-   "key": "DC|comps_both_ways|high|2865    2090|2026-06-26",
-   "date": "2026-06-26",
-   "price": 1200000.0,
-   "address": "2534 11TH ST NW # 2 WASHINGTON DC 20001-3924",
-   "flag_reason": "1.37x comps' $/sqft, 21 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|2886    0310|2026-02-04",
    "date": "2026-02-04",
    "price": 400000.0,
    "address": "744 GRESHAM PL NW WASHINGTON DC 20001",
    "flag_reason": "0.47x comps' $/sqft, 56 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|2893    0088|2026-01-05",
+   "date": "2026-01-05",
+   "price": 472082.0,
+   "address": "3323 SHERMAN AVE NW WASHINGTON DC 20010",
+   "flag_reason": "0.66x comps' $/sqft, 14 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4030,17 +4052,6 @@
    "price": 380000.0,
    "address": "3721 9TH ST NW WASHINGTON DC 20010",
    "flag_reason": "0.46x comps' $/sqft, 38 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2893    0088|2026-01-05",
-   "date": "2026-01-05",
-   "price": 472082.0,
-   "address": "3323 SHERMAN AVE NW WASHINGTON DC 20010",
-   "flag_reason": "0.66x comps' $/sqft, 14 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4069,22 +4080,22 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2908    0811|2025-08-29",
-   "date": "2025-08-29",
-   "price": 385000.0,
-   "address": "1209 SHEPHERD ST NW WASHINGTON DC 20011-5611",
-   "flag_reason": "0.5x comps' $/sqft, 19 comparables",
+   "key": "DC|comps_both_ways|low|2906    0839|2025-08-12",
+   "date": "2025-08-12",
+   "price": 500000.0,
+   "address": "932 SHEPHERD ST NW WASHINGTON DC 20011-5726",
+   "flag_reason": "0.64x comps' $/sqft, 31 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2906    0839|2025-08-12",
-   "date": "2025-08-12",
-   "price": 500000.0,
-   "address": "932 SHEPHERD ST NW WASHINGTON DC 20011-5726",
-   "flag_reason": "0.64x comps' $/sqft, 31 comparables",
+   "key": "DC|comps_both_ways|low|2908    0811|2025-08-29",
+   "date": "2025-08-29",
+   "price": 385000.0,
+   "address": "1209 SHEPHERD ST NW WASHINGTON DC 20011-5611",
+   "flag_reason": "0.5x comps' $/sqft, 19 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4190,17 +4201,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|2980    0033|2025-04-30",
-   "date": "2025-04-30",
-   "price": 245000.0,
-   "address": "6212 8TH ST NW WASHINGTON DC 20011",
-   "flag_reason": "0.31x comps' $/sqft, 52 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|2990    0019|2025-06-30",
    "date": "2025-06-30",
    "price": 455000.0,
@@ -4227,7 +4227,7 @@
    "date": "2026-09-29",
    "price": 1125000.0,
    "address": "822 MADISON ST NW WASHINGTON DC 20011-8211",
-   "flag_reason": "1.42x comps' $/sqft, 23 comparables",
+   "flag_reason": "1.42x comps' $/sqft, 24 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4266,6 +4266,28 @@
   },
   {
    "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|2980    0033|2025-04-30",
+   "date": "2025-04-30",
+   "price": 245000.0,
+   "address": "6212 8TH ST NW WASHINGTON DC 20011",
+   "flag_reason": "0.31x comps' $/sqft, 52 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|3005    0024|2026-10-14",
+   "date": "2026-10-14",
+   "price": 410000.0,
+   "address": "5011 ILLINOIS AVE NW WASHINGTON DC 20011",
+   "flag_reason": "0.44x comps' $/sqft, 76 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|2991    2001|2025-07-03",
    "date": "2025-07-03",
@@ -4277,12 +4299,12 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3005    0024|2026-10-14",
-   "date": "2026-10-14",
-   "price": 410000.0,
-   "address": "5011 ILLINOIS AVE NW WASHINGTON DC 20011",
-   "flag_reason": "0.44x comps' $/sqft, 75 comparables",
+   "screen": "comps, high side (condo)",
+   "key": "DC|comps_both_ways|high|3024    2047|2026-08-19",
+   "date": "2026-08-19",
+   "price": 684000.0,
+   "address": "838 VARNUM ST NW # 11 WASHINGTON DC 20011-7232",
+   "flag_reason": "1.48x comps' $/sqft, 15 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4310,45 +4332,12 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (condo)",
-   "key": "DC|comps_both_ways|high|3024    2047|2026-08-19",
-   "date": "2026-08-19",
-   "price": 684000.0,
-   "address": "838 VARNUM ST NW # 11 WASHINGTON DC 20011-7232",
-   "flag_reason": "1.48x comps' $/sqft, 15 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3031    0255|2026-01-09",
    "date": "2026-01-09",
    "price": 620000.0,
    "address": "749 PRINCETON PL NW WASHINGTON DC 20010",
    "flag_reason": "0.56x comps' $/sqft, 45 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|3044    2013|2026-07-30",
-   "date": "2026-07-30",
-   "price": 448900.0,
-   "address": "423 LAMONT ST NW # 1 WASHINGTON DC 20010-2524",
-   "flag_reason": "0.63x comps' $/sqft, 15 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3045    0025|2025-02-13",
-   "date": "2025-02-13",
-   "price": 510000.0,
-   "address": "444 LAMONT ST NW WASHINGTON DC 20010",
-   "flag_reason": "0.63x comps' $/sqft, 19 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4415,6 +4404,28 @@
    "price": 630000.0,
    "address": "438 PARK RD NW WASHINGTON DC 20010",
    "flag_reason": "0.6x comps' $/sqft, 33 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|3044    2013|2026-07-30",
+   "date": "2026-07-30",
+   "price": 448900.0,
+   "address": "423 LAMONT ST NW # 1 WASHINGTON DC 20010-2524",
+   "flag_reason": "0.63x comps' $/sqft, 15 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|3045    0025|2025-02-13",
+   "date": "2025-02-13",
+   "price": 510000.0,
+   "address": "444 LAMONT ST NW WASHINGTON DC 20010",
+   "flag_reason": "0.63x comps' $/sqft, 19 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4717,6 +4728,28 @@
   },
   {
    "jurisdiction": "DC",
+   "screen": "comps, high side (house)",
+   "key": "DC|comps_both_ways|high|3165    0828|2025-04-01",
+   "date": "2025-04-01",
+   "price": 1032500.0,
+   "address": "6621 7TH PL NW WASHINGTON DC 20012-2627",
+   "flag_reason": "1.34x comps' $/sqft, 45 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (house)",
+   "key": "DC|comps_both_ways|high|3166    0812|2025-12-02",
+   "date": "2025-12-02",
+   "price": 1172500.0,
+   "address": "616 WHITTIER ST NW WASHINGTON DC 20012-2650",
+   "flag_reason": "1.32x comps' $/sqft, 30 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3178    0805|2026-02-06",
    "date": "2026-02-06",
@@ -4739,23 +4772,12 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|3165    0828|2025-04-01",
-   "date": "2025-04-01",
-   "price": 1032500.0,
-   "address": "6621 7TH PL NW WASHINGTON DC 20012-2627",
-   "flag_reason": "1.34x comps' $/sqft, 45 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|3166    0812|2025-12-02",
-   "date": "2025-12-02",
-   "price": 1172500.0,
-   "address": "616 WHITTIER ST NW WASHINGTON DC 20012-2650",
-   "flag_reason": "1.32x comps' $/sqft, 30 comparables",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|3202    0263|2025-10-29",
+   "date": "2025-10-29",
+   "price": 415000.0,
+   "address": "536 ONEIDA PL NW WASHINGTON DC 20011",
+   "flag_reason": "0.52x comps' $/sqft, 61 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4789,17 +4811,6 @@
    "price": 365000.0,
    "address": "607 TUCKERMAN ST NW WASHINGTON DC 20011",
    "flag_reason": "0.61x comps' $/sqft, 31 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3202    0263|2025-10-29",
-   "date": "2025-10-29",
-   "price": 415000.0,
-   "address": "536 ONEIDA PL NW WASHINGTON DC 20011",
-   "flag_reason": "0.52x comps' $/sqft, 61 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4915,17 +4926,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|3231    0091|2026-05-06",
-   "date": "2026-05-06",
-   "price": 1250000.0,
-   "address": "522 TAYLOR ST NW WASHINGTON DC 20011",
-   "flag_reason": "1.49x comps' $/sqft, 124 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3234    0059|2026-11-10",
    "date": "2026-11-10",
@@ -4938,22 +4938,11 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|3238    0048|2026-05-28",
-   "date": "2026-05-28",
-   "price": 1265000.0,
-   "address": "4013 5TH ST NW WASHINGTON DC 20011",
-   "flag_reason": "1.33x comps' $/sqft, 110 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3251    0201|2026-01-28",
-   "date": "2026-01-28",
-   "price": 435000.0,
-   "address": "439 DELAFIELD PL NW WASHINGTON DC 20011",
-   "flag_reason": "0.6x comps' $/sqft, 95 comparables",
+   "key": "DC|comps_both_ways|high|3231    0091|2026-05-06",
+   "date": "2026-05-06",
+   "price": 1250000.0,
+   "address": "522 TAYLOR ST NW WASHINGTON DC 20011",
+   "flag_reason": "1.49x comps' $/sqft, 124 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -4981,6 +4970,17 @@
   },
   {
    "jurisdiction": "DC",
+   "screen": "comps, high side (house)",
+   "key": "DC|comps_both_ways|high|3238    0048|2026-05-28",
+   "date": "2026-05-28",
+   "price": 1265000.0,
+   "address": "4013 5TH ST NW WASHINGTON DC 20011",
+   "flag_reason": "1.34x comps' $/sqft, 111 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3248    0153|2026-04-29",
    "date": "2026-04-29",
@@ -4998,6 +4998,17 @@
    "price": 414000.0,
    "address": "448 DELAFIELD PL NW WASHINGTON DC 20011",
    "flag_reason": "0.72x comps' $/sqft, 17 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|3251    0201|2026-01-28",
+   "date": "2026-01-28",
+   "price": 435000.0,
+   "address": "439 DELAFIELD PL NW WASHINGTON DC 20011",
+   "flag_reason": "0.6x comps' $/sqft, 95 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5092,17 +5103,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3395    0040|2026-04-08",
-   "date": "2026-04-08",
-   "price": 467500.0,
-   "address": "129 INGRAHAM ST NW WASHINGTON DC 20011",
-   "flag_reason": "0.53x comps' $/sqft, 108 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3387    0090|2025-09-08",
    "date": "2025-09-08",
    "price": 456000.0,
@@ -5136,11 +5136,22 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|3395    0040|2026-04-08",
+   "date": "2026-04-08",
+   "price": 467500.0,
+   "address": "129 INGRAHAM ST NW WASHINGTON DC 20011",
+   "flag_reason": "0.53x comps' $/sqft, 108 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3500    0090|2026-08-27",
    "date": "2026-08-27",
    "price": 360000.0,
    "address": "28 GIRARD ST NE WASHINGTON DC 20002-1010",
-   "flag_reason": "0.43x comps' $/sqft, 80 comparables",
+   "flag_reason": "0.43x comps' $/sqft, 82 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5157,23 +5168,23 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (condo)",
-   "key": "DC|comps_both_ways|high|3516    2191|2026-04-08",
-   "date": "2026-04-08",
-   "price": 699000.0,
-   "address": "50 FLORIDA AVE NE # 802 WASHINGTON DC 20002-6971",
-   "flag_reason": "1.34x comps' $/sqft, 12 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|3511    2001|2026-01-08",
    "date": "2026-01-08",
    "price": 455000.0,
    "address": "15 SEATON PL NE # 1 WASHINGTON DC 20002",
    "flag_reason": "0.63x comps' $/sqft, 19 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, high side (condo)",
+   "key": "DC|comps_both_ways|high|3516    2191|2026-04-08",
+   "date": "2026-04-08",
+   "price": 699000.0,
+   "address": "50 FLORIDA AVE NE # 802 WASHINGTON DC 20002-6971",
+   "flag_reason": "1.34x comps' $/sqft, 12 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5217,7 +5228,7 @@
    "date": "2026-10-22",
    "price": 430000.0,
    "address": "2432 4TH ST NE WASHINGTON DC 20002-1202",
-   "flag_reason": "0.44x comps' $/sqft, 43 comparables",
+   "flag_reason": "0.44x comps' $/sqft, 45 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5251,17 +5262,6 @@
    "price": 450000.0,
    "address": "428 EVARTS ST NE # 1 WASHINGTON DC 20017-1259",
    "flag_reason": "1.58x comps' $/sqft, 16 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|3667    2009|2026-11-10",
-   "date": "2026-11-10",
-   "price": 160000.0,
-   "address": "4402 1ST PL NE # 31 WASHINGTON DC 20011",
-   "flag_reason": "0.54x comps' $/sqft, 10 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5306,6 +5306,17 @@
    "price": 565000.0,
    "address": "5709 CHILLUM PL NE WASHINGTON DC 20011",
    "flag_reason": "1.52x comps' $/sqft, 11 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|3667    2009|2026-11-10",
+   "date": "2026-11-10",
+   "price": 160000.0,
+   "address": "4402 1ST PL NE # 31 WASHINGTON DC 20011",
+   "flag_reason": "0.54x comps' $/sqft, 10 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5367,17 +5378,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3746    0841|2025-12-10",
-   "date": "2025-12-10",
-   "price": 350000.0,
-   "address": "835 KENNEDY ST NE WASHINGTON DC 20011",
-   "flag_reason": "0.57x comps' $/sqft, 48 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3745    0055|2026-07-21",
    "date": "2026-07-21",
    "price": 332000.0,
@@ -5389,22 +5389,11 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3754    0009|2025-06-03",
-   "date": "2025-06-03",
-   "price": 332048.0,
-   "address": "1004 GALLOWAY ST NE WASHINGTON DC 20011",
-   "flag_reason": "0.53x comps' $/sqft, 50 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3784    0020|2025-08-11",
-   "date": "2025-08-11",
-   "price": 320000.0,
-   "address": "5051 8TH ST NE WASHINGTON DC 20017",
-   "flag_reason": "0.55x comps' $/sqft, 58 comparables",
+   "key": "DC|comps_both_ways|low|3746    0841|2025-12-10",
+   "date": "2025-12-10",
+   "price": 350000.0,
+   "address": "835 KENNEDY ST NE WASHINGTON DC 20011",
+   "flag_reason": "0.57x comps' $/sqft, 48 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5422,6 +5411,17 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|3754    0009|2025-06-03",
+   "date": "2025-06-03",
+   "price": 332048.0,
+   "address": "1004 GALLOWAY ST NE WASHINGTON DC 20011",
+   "flag_reason": "0.53x comps' $/sqft, 50 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3777    0043|2026-10-15",
    "date": "2026-10-15",
    "price": 203500.0,
@@ -5433,11 +5433,22 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|3784    0020|2025-08-11",
+   "date": "2025-08-11",
+   "price": 320000.0,
+   "address": "5051 8TH ST NE WASHINGTON DC 20017",
+   "flag_reason": "0.55x comps' $/sqft, 58 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|3833    0061|2026-11-05",
    "date": "2026-11-05",
    "price": 200000.0,
    "address": "3208 10TH ST NE WASHINGTON DC 20017",
-   "flag_reason": "0.3x comps' $/sqft, 44 comparables",
+   "flag_reason": "0.3x comps' $/sqft, 45 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5520,17 +5531,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|3937    0048|2026-06-17",
-   "date": "2026-06-17",
-   "price": 155000.0,
-   "address": "1232 RHODE ISLAND AVE NE WASHINGTON DC 20018-3713",
-   "flag_reason": "0.17x comps' $/sqft, 88 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|3926    2026|2026-07-20",
    "date": "2026-07-20",
@@ -5547,7 +5547,7 @@
    "date": "2026-08-18",
    "price": 600000.0,
    "address": "1231 OTIS ST NE WASHINGTON DC 20017",
-   "flag_reason": "0.5x comps' $/sqft, 14 comparables",
+   "flag_reason": "0.48x comps' $/sqft, 15 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5570,6 +5570,17 @@
    "price": 560000.0,
    "address": "1201 KEARNY ST NE # 101 WASHINGTON DC 20017-4010",
    "flag_reason": "1.4x comps' $/sqft, 11 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|3937    0048|2026-06-17",
+   "date": "2026-06-17",
+   "price": 155000.0,
+   "address": "1232 RHODE ISLAND AVE NE WASHINGTON DC 20018-3713",
+   "flag_reason": "0.17x comps' $/sqft, 90 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5641,17 +5652,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4055    0050|2026-08-21",
-   "date": "2026-08-21",
-   "price": 350000.0,
-   "address": "1646 TRINIDAD AVE NE WASHINGTON DC 20002",
-   "flag_reason": "0.43x comps' $/sqft, 32 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|4055    2163|2026-06-05",
    "date": "2026-06-05",
@@ -5669,6 +5669,17 @@
    "price": 220000.0,
    "address": "1253 MOUNT OLIVET RD NE # 2 WASHINGTON DC 20002",
    "flag_reason": "0.72x comps' $/sqft, 14 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|4055    0050|2026-08-21",
+   "date": "2026-08-21",
+   "price": 350000.0,
+   "address": "1646 TRINIDAD AVE NE WASHINGTON DC 20002",
+   "flag_reason": "0.43x comps' $/sqft, 32 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5796,28 +5807,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4112    0843|2025-02-05",
-   "date": "2025-02-05",
-   "price": 550000.0,
-   "address": "1864 BRYANT ST NE WASHINGTON DC 20018",
-   "flag_reason": "0.74x comps' $/sqft, 12 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4129    0038|2025-05-14",
-   "date": "2025-05-14",
-   "price": 450000.0,
-   "address": "2715 17TH ST NE WASHINGTON DC 20018",
-   "flag_reason": "0.58x comps' $/sqft, 23 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|4135    0018|2026-03-03",
    "date": "2026-03-03",
    "price": 474900.0,
@@ -5834,6 +5823,17 @@
    "price": 300000.0,
    "address": "1605 BRENTWOOD RD NE WASHINGTON DC 20018",
    "flag_reason": "0.34x comps' $/sqft, 125 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|4112    0843|2025-02-05",
+   "date": "2025-02-05",
+   "price": 550000.0,
+   "address": "1864 BRYANT ST NE WASHINGTON DC 20018",
+   "flag_reason": "0.74x comps' $/sqft, 12 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -5862,6 +5862,17 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|4129    0038|2025-05-14",
+   "date": "2025-05-14",
+   "price": 450000.0,
+   "address": "2715 17TH ST NE WASHINGTON DC 20018",
+   "flag_reason": "0.58x comps' $/sqft, 23 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|4202    0108|2025-07-21",
    "date": "2025-07-21",
    "price": 548200.0,
@@ -5884,22 +5895,22 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4204    0821|2026-07-31",
-   "date": "2026-07-31",
-   "price": 690000.0,
-   "address": "1843 MONROE ST NE WASHINGTON DC 20018-2735",
-   "flag_reason": "0.72x comps' $/sqft, 11 comparables",
+   "key": "DC|comps_both_ways|low|4226    0034|2025-09-23",
+   "date": "2025-09-23",
+   "price": 400000.0,
+   "address": "3718 22ND ST NE WASHINGTON DC 20018",
+   "flag_reason": "0.54x comps' $/sqft, 16 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4226    0034|2025-09-23",
-   "date": "2025-09-23",
-   "price": 400000.0,
-   "address": "3718 22ND ST NE WASHINGTON DC 20018",
-   "flag_reason": "0.54x comps' $/sqft, 16 comparables",
+   "key": "DC|comps_both_ways|low|4204    0821|2026-07-31",
+   "date": "2026-07-31",
+   "price": 690000.0,
+   "address": "1843 MONROE ST NE WASHINGTON DC 20018-2735",
+   "flag_reason": "0.72x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6049,17 +6060,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4347    0055|2025-07-17",
-   "date": "2025-07-17",
-   "price": 260000.0,
-   "address": "2613 FRANKLIN ST NE WASHINGTON DC 20018",
-   "flag_reason": "0.45x comps' $/sqft, 13 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|4356    0026|2025-10-31",
    "date": "2025-10-31",
    "price": 300000.0,
@@ -6087,6 +6087,17 @@
    "price": 413400.0,
    "address": "2612 EVARTS ST NE WASHINGTON DC 20018",
    "flag_reason": "0.56x comps' $/sqft, 24 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|4347    0055|2025-07-17",
+   "date": "2025-07-17",
+   "price": 260000.0,
+   "address": "2613 FRANKLIN ST NE WASHINGTON DC 20018",
+   "flag_reason": "0.45x comps' $/sqft, 13 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6136,17 +6147,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|4473    2039|2025-10-10",
-   "date": "2025-10-10",
-   "price": 169900.0,
-   "address": "1016 17TH PL NE APT 3 WASHINGTON DC 20002-7608",
-   "flag_reason": "0.57x comps' $/sqft, 18 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|4507    0149|2025-12-04",
    "date": "2025-12-04",
@@ -6159,44 +6159,22 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|4473    2039|2025-10-10",
+   "date": "2025-10-10",
+   "price": 169900.0,
+   "address": "1016 17TH PL NE APT 3 WASHINGTON DC 20002-7608",
+   "flag_reason": "0.57x comps' $/sqft, 18 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
    "key": "DC|comps_both_ways|low|4474    2043|2025-10-15",
    "date": "2025-10-15",
    "price": 149000.0,
    "address": "1004 18TH ST NE # 2 WASHINGTON DC 20002-7630",
    "flag_reason": "0.63x comps' $/sqft, 10 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4518    0001|2025-11-17",
-   "date": "2025-11-17",
-   "price": 400000.0,
-   "address": "568 OKLAHOMA AVE NE WASHINGTON DC 20002",
-   "flag_reason": "0.5x comps' $/sqft, 141 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4518    0041|2025-01-08",
-   "date": "2025-01-08",
-   "price": 410000.0,
-   "address": "513 25TH PL NE WASHINGTON DC 20002",
-   "flag_reason": "0.52x comps' $/sqft, 57 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4518    0053|2026-04-06",
-   "date": "2026-04-06",
-   "price": 425000.0,
-   "address": "537 25TH PL NE WASHINGTON DC 20002",
-   "flag_reason": "0.57x comps' $/sqft, 94 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6291,22 +6269,33 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4526    0059|2025-10-30",
-   "date": "2025-10-30",
-   "price": 410000.0,
-   "address": "2018 E ST NE WASHINGTON DC 20002",
-   "flag_reason": "0.66x comps' $/sqft, 13 comparables",
+   "key": "DC|comps_both_ways|low|4518    0001|2025-11-17",
+   "date": "2025-11-17",
+   "price": 400000.0,
+   "address": "568 OKLAHOMA AVE NE WASHINGTON DC 20002",
+   "flag_reason": "0.5x comps' $/sqft, 141 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|4540    0284|2025-06-16",
-   "date": "2025-06-16",
-   "price": 390000.0,
-   "address": "1658 F ST NE WASHINGTON DC 20002",
-   "flag_reason": "0.49x comps' $/sqft, 151 comparables",
+   "key": "DC|comps_both_ways|low|4518    0041|2025-01-08",
+   "date": "2025-01-08",
+   "price": 410000.0,
+   "address": "513 25TH PL NE WASHINGTON DC 20002",
+   "flag_reason": "0.52x comps' $/sqft, 57 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|4518    0053|2026-04-06",
+   "date": "2026-04-06",
+   "price": 425000.0,
+   "address": "537 25TH PL NE WASHINGTON DC 20002",
+   "flag_reason": "0.57x comps' $/sqft, 94 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6323,23 +6312,12 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|4545    2010|2025-02-04",
-   "date": "2025-02-04",
-   "price": 235000.0,
-   "address": "1602 ISHERWOOD ST NE # 2 WASHINGTON DC 20002",
-   "flag_reason": "0.48x comps' $/sqft, 52 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (condo)",
-   "key": "DC|comps_both_ways|low|4545    2011|2026-05-19",
-   "date": "2026-05-19",
-   "price": 290000.0,
-   "address": "1602 ISHERWOOD ST NE # 3 WASHINGTON DC 20002",
-   "flag_reason": "0.6x comps' $/sqft, 60 comparables",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|4526    0059|2025-10-30",
+   "date": "2025-10-30",
+   "price": 410000.0,
+   "address": "2018 E ST NE WASHINGTON DC 20002",
+   "flag_reason": "0.66x comps' $/sqft, 13 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6412,6 +6390,17 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|4540    0284|2025-06-16",
+   "date": "2025-06-16",
+   "price": 390000.0,
+   "address": "1658 F ST NE WASHINGTON DC 20002",
+   "flag_reason": "0.49x comps' $/sqft, 151 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|4560    0190|2025-04-10",
    "date": "2025-04-10",
    "price": 480000.0,
@@ -6428,6 +6417,28 @@
    "price": 550000.0,
    "address": "332 19TH ST NE WASHINGTON DC 20002",
    "flag_reason": "0.68x comps' $/sqft, 117 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|4545    2010|2025-02-04",
+   "date": "2025-02-04",
+   "price": 235000.0,
+   "address": "1602 ISHERWOOD ST NE # 2 WASHINGTON DC 20002",
+   "flag_reason": "0.48x comps' $/sqft, 52 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (condo)",
+   "key": "DC|comps_both_ways|low|4545    2011|2026-05-19",
+   "date": "2026-05-19",
+   "price": 290000.0,
+   "address": "1602 ISHERWOOD ST NE # 3 WASHINGTON DC 20002",
+   "flag_reason": "0.6x comps' $/sqft, 60 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6472,39 +6483,6 @@
    "price": 355000.0,
    "address": "428 20TH ST NE WASHINGTON DC 20002",
    "flag_reason": "0.5x comps' $/sqft, 65 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5017    0090|2025-04-07",
-   "date": "2025-04-07",
-   "price": 103993.0,
-   "address": "3436 DIX ST NE WASHINGTON DC 20019",
-   "flag_reason": "0.25x comps' $/sqft, 14 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5017    0092|2025-12-24",
-   "date": "2025-12-24",
-   "price": 300000.0,
-   "address": "3432 DIX ST NE WASHINGTON DC 20019",
-   "flag_reason": "0.69x comps' $/sqft, 17 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5017    0095|2026-08-17",
-   "date": "2026-08-17",
-   "price": 248000.0,
-   "address": "3426 DIX ST NE WASHINGTON DC 20019",
-   "flag_reason": "0.63x comps' $/sqft, 10 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6577,6 +6555,39 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5017    0090|2025-04-07",
+   "date": "2025-04-07",
+   "price": 103993.0,
+   "address": "3436 DIX ST NE WASHINGTON DC 20019",
+   "flag_reason": "0.25x comps' $/sqft, 14 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5017    0092|2025-12-24",
+   "date": "2025-12-24",
+   "price": 300000.0,
+   "address": "3432 DIX ST NE WASHINGTON DC 20019",
+   "flag_reason": "0.69x comps' $/sqft, 17 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5017    0095|2026-08-17",
+   "date": "2026-08-17",
+   "price": 248000.0,
+   "address": "3426 DIX ST NE WASHINGTON DC 20019",
+   "flag_reason": "0.63x comps' $/sqft, 10 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5046W   0036|2026-07-24",
    "date": "2026-07-24",
    "price": 150000.0,
@@ -6593,6 +6604,17 @@
    "price": 256000.0,
    "address": "4029 GAULT PL NE WASHINGTON DC 20019",
    "flag_reason": "0.7x comps' $/sqft, 35 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5099    0830|2025-05-14",
+   "date": "2025-05-14",
+   "price": 310000.0,
+   "address": "1145 42ND ST NE WASHINGTON DC 20019",
+   "flag_reason": "0.67x comps' $/sqft, 20 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6654,28 +6676,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5099    0830|2025-05-14",
-   "date": "2025-05-14",
-   "price": 310000.0,
-   "address": "1145 42ND ST NE WASHINGTON DC 20019",
-   "flag_reason": "0.67x comps' $/sqft, 20 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5136    0807|2026-03-30",
-   "date": "2026-03-30",
-   "price": 294000.0,
-   "address": "4404 BANKS PL NE WASHINGTON DC 20019-4603",
-   "flag_reason": "0.68x comps' $/sqft, 54 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5140    0803|2025-12-16",
    "date": "2025-12-16",
    "price": 215000.0,
@@ -6720,6 +6720,17 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5136    0807|2026-03-30",
+   "date": "2026-03-30",
+   "price": 294000.0,
+   "address": "4404 BANKS PL NE WASHINGTON DC 20019-4603",
+   "flag_reason": "0.68x comps' $/sqft, 54 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5144    0027|2026-06-08",
    "date": "2026-06-08",
    "price": 225000.0,
@@ -6736,17 +6747,6 @@
    "price": 202000.0,
    "address": "4605 GRANT ST NE WASHINGTON DC 20019",
    "flag_reason": "0.46x comps' $/sqft, 41 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5153    0843|2026-11-04",
-   "date": "2026-11-04",
-   "price": 200000.0,
-   "address": "1046 49TH ST NE WASHINGTON DC 20019-3929",
-   "flag_reason": "0.47x comps' $/sqft, 31 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6775,22 +6775,11 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5158    0099|2025-03-11",
-   "date": "2025-03-11",
-   "price": 240000.0,
-   "address": "4827 MEADE ST NE WASHINGTON DC 20019",
-   "flag_reason": "0.55x comps' $/sqft, 40 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5176    0334|2026-01-12",
-   "date": "2026-01-12",
-   "price": 110448.0,
-   "address": "5074 JAY ST NE WASHINGTON DC 20019",
-   "flag_reason": "0.33x comps' $/sqft, 16 comparables",
+   "key": "DC|comps_both_ways|low|5153    0843|2026-11-04",
+   "date": "2026-11-04",
+   "price": 200000.0,
+   "address": "1046 49TH ST NE WASHINGTON DC 20019-3929",
+   "flag_reason": "0.47x comps' $/sqft, 31 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -6863,6 +6852,17 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5158    0099|2025-03-11",
+   "date": "2025-03-11",
+   "price": 240000.0,
+   "address": "4827 MEADE ST NE WASHINGTON DC 20019",
+   "flag_reason": "0.55x comps' $/sqft, 40 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5172    0007|2025-11-21",
    "date": "2025-11-21",
    "price": 340050.0,
@@ -6912,6 +6912,17 @@
    "price": 275000.0,
    "address": "5102 JUST ST NE WASHINGTON DC 20019",
    "flag_reason": "0.61x comps' $/sqft, 47 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5176    0334|2026-01-12",
+   "date": "2026-01-12",
+   "price": 110448.0,
+   "address": "5074 JAY ST NE WASHINGTON DC 20019",
+   "flag_reason": "0.33x comps' $/sqft, 16 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7028,17 +7039,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5199    0088|2026-02-05",
-   "date": "2026-02-05",
-   "price": 172625.0,
-   "address": "5208 JAY ST NE WASHINGTON DC 20019",
-   "flag_reason": "0.51x comps' $/sqft, 15 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5213E   0059|2025-10-30",
    "date": "2025-10-30",
    "price": 282000.0,
@@ -7066,6 +7066,17 @@
    "price": 240000.0,
    "address": "5500 FOOTE ST NE WASHINGTON DC 20019",
    "flag_reason": "0.56x comps' $/sqft, 43 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5199    0088|2026-02-05",
+   "date": "2026-02-05",
+   "price": 172625.0,
+   "address": "5208 JAY ST NE WASHINGTON DC 20019",
+   "flag_reason": "0.51x comps' $/sqft, 15 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7193,28 +7204,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5251    0053|2025-08-15",
-   "date": "2025-08-15",
-   "price": 220000.0,
-   "address": "5626 CLAY PL NE WASHINGTON DC 20019",
-   "flag_reason": "0.49x comps' $/sqft, 47 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5251    0056|2026-06-22",
-   "date": "2026-06-22",
-   "price": 100000.0,
-   "address": "5620 CLAY PL NE WASHINGTON DC 20019",
-   "flag_reason": "0.23x comps' $/sqft, 41 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5271    0021|2025-09-11",
    "date": "2025-09-11",
    "price": 218000.0,
@@ -7237,6 +7226,28 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5251    0053|2025-08-15",
+   "date": "2025-08-15",
+   "price": 220000.0,
+   "address": "5626 CLAY PL NE WASHINGTON DC 20019",
+   "flag_reason": "0.49x comps' $/sqft, 47 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5251    0056|2026-06-22",
+   "date": "2026-06-22",
+   "price": 100000.0,
+   "address": "5620 CLAY PL NE WASHINGTON DC 20019",
+   "flag_reason": "0.23x comps' $/sqft, 41 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5252    0150|2025-08-19",
    "date": "2025-08-19",
    "price": 290000.0,
@@ -7253,6 +7264,17 @@
    "price": 194000.0,
    "address": "324 55TH ST NE WASHINGTON DC 20019",
    "flag_reason": "0.42x comps' $/sqft, 31 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5285    0189|2025-10-31",
+   "date": "2025-10-31",
+   "price": 275000.0,
+   "address": "76 54TH ST SE WASHINGTON DC 20019",
+   "flag_reason": "0.59x comps' $/sqft, 45 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7336,11 +7358,11 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5285    0189|2025-10-31",
-   "date": "2025-10-31",
-   "price": 275000.0,
-   "address": "76 54TH ST SE WASHINGTON DC 20019",
-   "flag_reason": "0.59x comps' $/sqft, 45 comparables",
+   "key": "DC|comps_both_ways|low|5318    0034|2025-02-18",
+   "date": "2025-02-18",
+   "price": 325000.0,
+   "address": "4885 F ST SE WASHINGTON DC 20019",
+   "flag_reason": "0.62x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7352,17 +7374,6 @@
    "price": 276000.0,
    "address": "5500 D ST SE WASHINGTON DC 20019",
    "flag_reason": "0.6x comps' $/sqft, 15 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5318    0034|2025-02-18",
-   "date": "2025-02-18",
-   "price": 325000.0,
-   "address": "4885 F ST SE WASHINGTON DC 20019",
-   "flag_reason": "0.62x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7429,28 +7440,6 @@
    "price": 175000.0,
    "address": "818 51ST ST SE WASHINGTON DC 20019",
    "flag_reason": "0.53x comps' $/sqft, 11 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5361    0198|2025-11-13",
-   "date": "2025-11-13",
-   "price": 345000.0,
-   "address": "4553 ALABAMA AVE SE WASHINGTON DC 20019",
-   "flag_reason": "0.7x comps' $/sqft, 40 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5361    0804|2025-08-26",
-   "date": "2025-08-26",
-   "price": 332000.0,
-   "address": "1127 45TH PL SE WASHINGTON DC 20019-4908",
-   "flag_reason": "0.76x comps' $/sqft, 40 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7578,6 +7567,39 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5361    0198|2025-11-13",
+   "date": "2025-11-13",
+   "price": 345000.0,
+   "address": "4553 ALABAMA AVE SE WASHINGTON DC 20019",
+   "flag_reason": "0.7x comps' $/sqft, 40 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5361    0804|2025-08-26",
+   "date": "2025-08-26",
+   "price": 332000.0,
+   "address": "1127 45TH PL SE WASHINGTON DC 20019-4908",
+   "flag_reason": "0.76x comps' $/sqft, 40 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5368    0031|2025-05-20",
+   "date": "2025-05-20",
+   "price": 290000.0,
+   "address": "4228 SOUTHERN AVE SE WASHINGTON DC 20019",
+   "flag_reason": "0.68x comps' $/sqft, 48 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5371    0056|2026-08-05",
    "date": "2026-08-05",
    "price": 262000.0,
@@ -7638,28 +7660,6 @@
    "price": 245000.0,
    "address": "4238 SOUTHERN AVE SE WASHINGTON DC 20019",
    "flag_reason": "0.59x comps' $/sqft, 38 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5368    0031|2025-05-20",
-   "date": "2025-05-20",
-   "price": 290000.0,
-   "address": "4228 SOUTHERN AVE SE WASHINGTON DC 20019",
-   "flag_reason": "0.68x comps' $/sqft, 48 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5392    0106|2026-09-24",
-   "date": "2026-09-24",
-   "price": 231000.0,
-   "address": "4346 GORMAN TER SE WASHINGTON DC 20019",
-   "flag_reason": "0.67x comps' $/sqft, 17 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7754,11 +7754,11 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5398    0010|2025-08-05",
-   "date": "2025-08-05",
-   "price": 223000.0,
-   "address": "458 BURNS ST SE WASHINGTON DC 20019",
-   "flag_reason": "0.55x comps' $/sqft, 46 comparables",
+   "key": "DC|comps_both_ways|low|5392    0106|2026-09-24",
+   "date": "2026-09-24",
+   "price": 231000.0,
+   "address": "4346 GORMAN TER SE WASHINGTON DC 20019",
+   "flag_reason": "0.67x comps' $/sqft, 17 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7770,6 +7770,17 @@
    "price": 180000.0,
    "address": "3451 MINNESOTA AVE SE WASHINGTON DC 20019",
    "flag_reason": "0.43x comps' $/sqft, 43 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5398    0010|2025-08-05",
+   "date": "2025-08-05",
+   "price": 223000.0,
+   "address": "458 BURNS ST SE WASHINGTON DC 20019",
+   "flag_reason": "0.55x comps' $/sqft, 46 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -7874,17 +7885,6 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, high side (house)",
-   "key": "DC|comps_both_ways|high|5543    0888|2025-05-21",
-   "date": "2025-05-21",
-   "price": 745000.0,
-   "address": "1316 31ST PL SE WASHINGTON DC 20020-3635",
-   "flag_reason": "1.53x comps' $/sqft, 13 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5519    0012|2026-11-10",
    "date": "2026-11-10",
@@ -7924,28 +7924,6 @@
    "price": 265000.0,
    "address": "1700 FORT DAVIS ST SE WASHINGTON DC 20020",
    "flag_reason": "0.57x comps' $/sqft, 34 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5544    0025|2026-10-09",
-   "date": "2026-10-09",
-   "price": 350000.0,
-   "address": "3001 O ST SE WASHINGTON DC 20020",
-   "flag_reason": "0.58x comps' $/sqft, 18 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5548    0108|2026-10-07",
-   "date": "2026-10-07",
-   "price": 100000.0,
-   "address": "1305 30TH ST SE WASHINGTON DC 20020",
-   "flag_reason": "0.2x comps' $/sqft, 13 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -8039,6 +8017,39 @@
   },
   {
    "jurisdiction": "DC",
+   "screen": "comps, high side (house)",
+   "key": "DC|comps_both_ways|high|5543    0888|2025-05-21",
+   "date": "2025-05-21",
+   "price": 745000.0,
+   "address": "1316 31ST PL SE WASHINGTON DC 20020-3635",
+   "flag_reason": "1.53x comps' $/sqft, 13 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5544    0025|2026-10-09",
+   "date": "2026-10-09",
+   "price": 350000.0,
+   "address": "3001 O ST SE WASHINGTON DC 20020",
+   "flag_reason": "0.58x comps' $/sqft, 18 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5548    0108|2026-10-07",
+   "date": "2026-10-07",
+   "price": 100000.0,
+   "address": "1305 30TH ST SE WASHINGTON DC 20020",
+   "flag_reason": "0.2x comps' $/sqft, 13 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
    "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5555    0031|2025-12-03",
    "date": "2025-12-03",
@@ -8117,17 +8128,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5619S   0006|2026-03-26",
-   "date": "2026-03-26",
-   "price": 150000.0,
-   "address": "2212 MARION BARRY AVE SE WASHINGTON DC 20020-4002",
-   "flag_reason": "0.41x comps' $/sqft, 14 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5610    0040|2025-09-24",
    "date": "2025-09-24",
    "price": 330000.0,
@@ -8194,6 +8194,28 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5619S   0006|2026-03-26",
+   "date": "2026-03-26",
+   "price": 150000.0,
+   "address": "2212 MARION BARRY AVE SE WASHINGTON DC 20020-4002",
+   "flag_reason": "0.41x comps' $/sqft, 14 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5640    0004|2026-07-16",
+   "date": "2026-07-16",
+   "price": 409600.0,
+   "address": "2959 FORT BAKER DR SE WASHINGTON DC 20020",
+   "flag_reason": "0.51x comps' $/sqft, 11 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5643    0060|2025-02-25",
    "date": "2025-02-25",
    "price": 399500.0,
@@ -8232,17 +8254,6 @@
    "price": 323000.0,
    "address": "1801 29TH ST SE WASHINGTON DC 20020",
    "flag_reason": "0.57x comps' $/sqft, 17 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5640    0004|2026-07-16",
-   "date": "2026-07-16",
-   "price": 409600.0,
-   "address": "2959 FORT BAKER DR SE WASHINGTON DC 20020",
-   "flag_reason": "0.51x comps' $/sqft, 11 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -8502,33 +8513,22 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5889    0055|2026-03-26",
-   "date": "2026-03-26",
-   "price": 225000.0,
-   "address": "1440 ALABAMA AVE SE WASHINGTON DC 20032",
-   "flag_reason": "0.56x comps' $/sqft, 22 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5890    0185|2025-11-07",
-   "date": "2025-11-07",
+   "key": "DC|comps_both_ways|low|5882W   0004|2025-08-20",
+   "date": "2025-08-20",
    "price": 250000.0,
-   "address": "1509 TANNER ST SE WASHINGTON DC 20020",
-   "flag_reason": "0.55x comps' $/sqft, 17 comparables",
+   "address": "1723 STANTON TER SE WASHINGTON DC 20020",
+   "flag_reason": "0.62x comps' $/sqft, 23 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5890    0233|2025-03-19",
-   "date": "2025-03-19",
-   "price": 450000.0,
-   "address": "3247 STANTON RD SE WASHINGTON DC 20020",
-   "flag_reason": "0.77x comps' $/sqft, 10 comparables",
+   "key": "DC|comps_both_ways|low|5882W   0044|2026-02-17",
+   "date": "2026-02-17",
+   "price": 267000.0,
+   "address": "1841 TUBMAN RD SE WASHINGTON DC 20020",
+   "flag_reason": "0.69x comps' $/sqft, 17 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -8557,22 +8557,33 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5882W   0004|2025-08-20",
-   "date": "2025-08-20",
-   "price": 250000.0,
-   "address": "1723 STANTON TER SE WASHINGTON DC 20020",
-   "flag_reason": "0.62x comps' $/sqft, 23 comparables",
+   "key": "DC|comps_both_ways|low|5889    0055|2026-03-26",
+   "date": "2026-03-26",
+   "price": 225000.0,
+   "address": "1440 ALABAMA AVE SE WASHINGTON DC 20032",
+   "flag_reason": "0.56x comps' $/sqft, 22 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5882W   0044|2026-02-17",
-   "date": "2026-02-17",
-   "price": 267000.0,
-   "address": "1841 TUBMAN RD SE WASHINGTON DC 20020",
-   "flag_reason": "0.69x comps' $/sqft, 17 comparables",
+   "key": "DC|comps_both_ways|low|5890    0185|2025-11-07",
+   "date": "2025-11-07",
+   "price": 250000.0,
+   "address": "1509 TANNER ST SE WASHINGTON DC 20020",
+   "flag_reason": "0.55x comps' $/sqft, 17 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5890    0233|2025-03-19",
+   "date": "2025-03-19",
+   "price": 450000.0,
+   "address": "3247 STANTON RD SE WASHINGTON DC 20020",
+   "flag_reason": "0.77x comps' $/sqft, 10 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -8634,6 +8645,39 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5935    0015|2025-08-08",
+   "date": "2025-08-08",
+   "price": 265000.0,
+   "address": "1109 CONGRESS ST SE WASHINGTON DC 20032",
+   "flag_reason": "0.69x comps' $/sqft, 22 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5937    0031|2025-04-07",
+   "date": "2025-04-07",
+   "price": 235000.0,
+   "address": "1208 CONGRESS ST SE WASHINGTON DC 20032",
+   "flag_reason": "0.62x comps' $/sqft, 12 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5937    0033|2025-09-26",
+   "date": "2025-09-26",
+   "price": 200000.0,
+   "address": "3310 12TH ST SE WASHINGTON DC 20032",
+   "flag_reason": "0.54x comps' $/sqft, 25 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5920    0170|2025-02-10",
    "date": "2025-02-10",
    "price": 292000.0,
@@ -8678,39 +8722,6 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5935    0015|2025-08-08",
-   "date": "2025-08-08",
-   "price": 265000.0,
-   "address": "1109 CONGRESS ST SE WASHINGTON DC 20032",
-   "flag_reason": "0.69x comps' $/sqft, 22 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5937    0031|2025-04-07",
-   "date": "2025-04-07",
-   "price": 235000.0,
-   "address": "1208 CONGRESS ST SE WASHINGTON DC 20032",
-   "flag_reason": "0.62x comps' $/sqft, 12 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5937    0033|2025-09-26",
-   "date": "2025-09-26",
-   "price": 200000.0,
-   "address": "3310 12TH ST SE WASHINGTON DC 20032",
-   "flag_reason": "0.54x comps' $/sqft, 25 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|5922    0103|2025-02-28",
    "date": "2025-02-28",
    "price": 252000.0,
@@ -8732,23 +8743,23 @@
   },
   {
    "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|5946    0028|2025-08-11",
-   "date": "2025-08-11",
-   "price": 215000.0,
-   "address": "1229 SAVANNAH PL SE WASHINGTON DC 20032",
-   "flag_reason": "0.54x comps' $/sqft, 38 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
    "screen": "comps, high side (house)",
    "key": "DC|comps_both_ways|high|5971    0001|2026-06-04",
    "date": "2026-06-04",
    "price": 524000.0,
    "address": "3337 5TH ST SE WASHINGTON DC 20032",
    "flag_reason": "1.3x comps' $/sqft, 54 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|5946    0028|2025-08-11",
+   "date": "2025-08-11",
+   "price": 215000.0,
+   "address": "1229 SAVANNAH PL SE WASHINGTON DC 20032",
+   "flag_reason": "0.54x comps' $/sqft, 38 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -8832,11 +8843,33 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|6126    0051|2025-09-10",
+   "date": "2025-09-10",
+   "price": 192500.0,
+   "address": "465 VALLEY AVE SE WASHINGTON DC 20032",
+   "flag_reason": "0.43x comps' $/sqft, 41 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|6003    0007|2026-11-09",
    "date": "2026-11-09",
    "price": 244900.0,
    "address": "3363 BROTHERS PL SE WASHINGTON DC 20032",
    "flag_reason": "0.44x comps' $/sqft, 12 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|6068    0044|2025-10-16",
+   "date": "2025-10-16",
+   "price": 295000.0,
+   "address": "131 RALEIGH ST SE WASHINGTON DC 20032",
+   "flag_reason": "0.47x comps' $/sqft, 10 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -8859,28 +8892,6 @@
    "price": 157716.0,
    "address": "521 FOXHALL PL SE WASHINGTON DC 20032",
    "flag_reason": "0.39x comps' $/sqft, 48 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|6126    0051|2025-09-10",
-   "date": "2025-09-10",
-   "price": 192500.0,
-   "address": "465 VALLEY AVE SE WASHINGTON DC 20032",
-   "flag_reason": "0.43x comps' $/sqft, 41 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|6068    0044|2025-10-16",
-   "date": "2025-10-16",
-   "price": 295000.0,
-   "address": "131 RALEIGH ST SE WASHINGTON DC 20032",
-   "flag_reason": "0.47x comps' $/sqft, 10 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -8931,6 +8942,39 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|6212    0016|2025-10-14",
+   "date": "2025-10-14",
+   "price": 270000.0,
+   "address": "601 FORRESTER ST SE WASHINGTON DC 20032",
+   "flag_reason": "0.74x comps' $/sqft, 37 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|6212    0036|2026-01-14",
+   "date": "2026-01-14",
+   "price": 218500.0,
+   "address": "618 GALVESTON ST SE WASHINGTON DC 20032",
+   "flag_reason": "0.6x comps' $/sqft, 45 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
+   "key": "DC|comps_both_ways|low|6213    0002|2025-10-09",
+   "date": "2025-10-09",
+   "price": 180340.0,
+   "address": "4622 6TH ST SE WASHINGTON DC 20032-3501",
+   "flag_reason": "0.49x comps' $/sqft, 38 comparables",
+   "explained": false,
+   "reason": "no automated explanation found"
+  },
+  {
+   "jurisdiction": "DC",
+   "screen": "comps, low side (house)",
    "key": "DC|comps_both_ways|low|6208    0831|2025-04-17",
    "date": "2025-04-17",
    "price": 200000.0,
@@ -8975,33 +9019,11 @@
   {
    "jurisdiction": "DC",
    "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|6212    0016|2025-10-14",
-   "date": "2025-10-14",
-   "price": 270000.0,
-   "address": "601 FORRESTER ST SE WASHINGTON DC 20032",
-   "flag_reason": "0.74x comps' $/sqft, 37 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|6212    0036|2026-01-14",
-   "date": "2026-01-14",
-   "price": 218500.0,
-   "address": "618 GALVESTON ST SE WASHINGTON DC 20032",
-   "flag_reason": "0.6x comps' $/sqft, 45 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|6213    0002|2025-10-09",
-   "date": "2025-10-09",
-   "price": 180340.0,
-   "address": "4622 6TH ST SE WASHINGTON DC 20032-3501",
-   "flag_reason": "0.49x comps' $/sqft, 38 comparables",
+   "key": "DC|comps_both_ways|low|6240    0108|2025-11-12",
+   "date": "2025-11-12",
+   "price": 240000.0,
+   "address": "164 ELMIRA ST SW WASHINGTON DC 20032",
+   "flag_reason": "0.68x comps' $/sqft, 35 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -9057,17 +9079,6 @@
    "price": 95000.0,
    "address": "79 ELMIRA ST SW WASHINGTON DC 20032",
    "flag_reason": "0.24x comps' $/sqft, 27 comparables",
-   "explained": false,
-   "reason": "no automated explanation found"
-  },
-  {
-   "jurisdiction": "DC",
-   "screen": "comps, low side (house)",
-   "key": "DC|comps_both_ways|low|6240    0108|2025-11-12",
-   "date": "2025-11-12",
-   "price": 240000.0,
-   "address": "164 ELMIRA ST SW WASHINGTON DC 20032",
-   "flag_reason": "0.68x comps' $/sqft, 35 comparables",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -9481,22 +9492,22 @@
   {
    "jurisdiction": "DC",
    "screen": "bought high, resold lower",
-   "key": "DC|resold_lower||0369    2154|2016-05-26",
-   "date": "2016-05-26",
-   "price": 1320000.0,
-   "address": "1117 10TH ST NW # 1103 WASHINGTON DC 20001",
-   "flag_reason": "resold 2019-05-09 for $1,035,000, 22% below the 2016-05-26 purchase price",
+   "key": "DC|resold_lower||0367    0064|2015-08-19",
+   "date": "2015-08-19",
+   "price": 1225000.0,
+   "address": "908 O ST NW WASHINGTON DC 20001",
+   "flag_reason": "resold 2017-09-22 for $970,250, 21% below the 2015-08-19 purchase price",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "bought high, resold lower",
-   "key": "DC|resold_lower||0367    0064|2015-08-19",
-   "date": "2015-08-19",
-   "price": 1225000.0,
-   "address": "908 O ST NW WASHINGTON DC 20001",
-   "flag_reason": "resold 2017-09-22 for $970,250, 21% below the 2015-08-19 purchase price",
+   "key": "DC|resold_lower||0369    2154|2016-05-26",
+   "date": "2016-05-26",
+   "price": 1320000.0,
+   "address": "1117 10TH ST NW # 1103 WASHINGTON DC 20001",
+   "flag_reason": "resold 2019-05-09 for $1,035,000, 22% below the 2016-05-26 purchase price",
    "explained": false,
    "reason": "no automated explanation found"
   },
@@ -9657,22 +9668,22 @@
   {
    "jurisdiction": "DC",
    "screen": "bought high, resold lower",
-   "key": "DC|resold_lower||0546    2274|2018-05-01",
-   "date": "2018-05-01",
-   "price": 300000.0,
-   "address": "240 M ST SW # E310 WASHINGTON DC 20024",
-   "flag_reason": "resold 2024-12-16 for $235,000, 22% below the 2018-05-01 purchase price",
+   "key": "DC|resold_lower||0542    2014|2015-06-02",
+   "date": "2015-06-02",
+   "price": 275000.0,
+   "address": "1101 3RD ST SW # 114 WASHINGTON DC 20024",
+   "flag_reason": "resold 2026-07-22 for $185,000, 33% below the 2015-06-02 purchase price",
    "explained": false,
    "reason": "no automated explanation found"
   },
   {
    "jurisdiction": "DC",
    "screen": "bought high, resold lower",
-   "key": "DC|resold_lower||0542    2014|2015-06-02",
-   "date": "2015-06-02",
-   "price": 275000.0,
-   "address": "1101 3RD ST SW # 114 WASHINGTON DC 20024",
-   "flag_reason": "resold 2026-07-22 for $185,000, 33% below the 2015-06-02 purchase price",
+   "key": "DC|resold_lower||0546    2274|2018-05-01",
+   "date": "2018-05-01",
+   "price": 300000.0,
+   "address": "240 M ST SW # E310 WASHINGTON DC 20024",
+   "flag_reason": "resold 2024-12-16 for $235,000, 22% below the 2018-05-01 purchase price",
    "explained": false,
    "reason": "no automated explanation found"
   },
