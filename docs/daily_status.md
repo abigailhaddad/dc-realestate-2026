@@ -1,6 +1,6 @@
 # Daily price-anomaly screen
 
-Last run: 2026-11-26 19:40 UTC. Covers sales from 2025-01-01 through each jurisdiction's most recent data pull (below) in DC, Arlington (VA), Montgomery + Prince George's (MD), and Fairfax (VA). Full methodology: [`docs/overpriced_sales.md`](./overpriced_sales.md).
+Last run: 2026-11-27 19:38 UTC. Covers sales from 2025-01-01 through each jurisdiction's most recent data pull (below) in DC, Arlington (VA), Montgomery + Prince George's (MD), and Fairfax (VA). Full methodology: [`docs/overpriced_sales.md`](./overpriced_sales.md).
 
 **This pipeline flags transactions, never people.** No owner, buyer, or seller name is used anywhere in it. A flag is a reason to look, not a finding -- most flagged sales turn out to have an ordinary explanation.
 
@@ -8,18 +8,18 @@ Last run: 2026-11-26 19:40 UTC. Covers sales from 2025-01-01 through each jurisd
 
 | Jurisdiction | Latest sale in the pull | 2025+ sales on file | New since last run |
 |---|---|---|---|
-| DC | 2026-11-18 | 17,307 | +36 |
-| Arlington, VA | 2026-11-24 | 5,356 | +7 |
+| DC | 2026-11-18 | 17,307 | +0 |
+| Arlington, VA | 2026-11-24 | 5,356 | +0 |
 | Montgomery + Prince George's, MD | 2026-10-29 | 67,759 | +0 |
 | Fairfax, VA | 2026-09-15 | 25,676 | +0 |
 
-**116,098 sales on file since 2025-01-01 across all four areas (+43 new since the last run).**
+**116,098 sales on file since 2025-01-01 across all four areas (+0 new since the last run).**
 
 ## Flagged as price outliers
 
 **2,058 sale/screen combinations flagged** across every screen this run (a single sale can be flagged by more than one screen). **945 have an automated ordinary explanation** (new construction, a documented construction/renovation permit, consistent with the property's own sale history, a farm or large-lot assessment, or a comparable public listing). **1,113 remain unexplained by anything this pipeline checks automatically.**
 
-Of those 1,113, **8 are new since the last run** (not already unexplained yesterday).
+Of those 1,113, **0 are new since the last run** (not already unexplained yesterday).
 
 | Jurisdiction | Flagged (sale/screen combos) | Unexplained |
 |---|---|---|
@@ -41,16 +41,7 @@ Of those 1,113, **8 are new since the last run** (not already unexplained yester
 
 Sales that are unexplained today and were NOT already unexplained on the previous run (i.e. either new sales, or newly flagged by a screen). This is the section worth reading daily; everything below it is the full accumulated backlog.
 
-| Jurisdiction | Screen | Date | Price | Address | Why flagged |
-|---|---|---|---|---|---|
-| DC | assessment + comps (house) | 2026-11-18 | $6,578,500 | 1524 29TH ST NW WASHINGTON DC 20007-3060 | 1.43x comps' $/sqft, 12 comparables |
-| DC | comps, high side (house) | 2026-11-18 | $6,578,500 | 1524 29TH ST NW WASHINGTON DC 20007-3060 | 1.43x comps' $/sqft, 12 comparables |
-| DC | comps, high side (house) | 2026-09-30 | $688,000 | 3723 BANGOR ST SE WASHINGTON DC 20020 | 1.31x comps' $/sqft, 18 comparables |
-| DC | bought high, resold lower | 2022-05-27 | $460,000 | 5502 B ST SE WASHINGTON DC 20019 | resold 2026-11-18 for $320,880, 30% below the 2022-05-27 purchase price |
-| DC | bought high, resold lower | 2021-12-06 | $299,000 | 1140 23RD ST NW # 103 WASHINGTON DC 20037 | resold 2026-11-18 for $210,000, 30% below the 2021-12-06 purchase price |
-| DC | comps, low side (house) | 2026-11-18 | $267,000 | 1305 30TH ST SE WASHINGTON DC 20020 | 0.55x comps' $/sqft, 10 comparables |
-| DC | comps, low side (condo) | 2026-11-18 | $210,000 | 1140 23RD ST NW # 103 WASHINGTON DC 20037 | 0.48x comps' $/sqft, 40 comparables |
-| DC | comps, low side (house) | 2026-11-18 | $122,573 | 2205 S ST SE WASHINGTON DC 20020 | 0.35x comps' $/sqft, 19 comparables |
+None.
 
 ## All unexplained candidates (largest first)
 
